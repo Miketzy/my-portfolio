@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div>
       <div>
-        <img src={logo} alt="logo" className="h-10" />
+        <img src={logo} alt="logo" className="h-15" />
       </div>
       <div></div>
     </div>
