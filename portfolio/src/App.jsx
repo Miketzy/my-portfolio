@@ -1,7 +1,11 @@
+import Navbar from "./components/navbar/Navbar";
+
 function App() {
   return (
     <>
-      <div>Portfolio</div>
+      <div className="app">
+        <Navbar />
+      </div>
     </>
   );
 }
