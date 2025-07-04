@@ -10,8 +10,8 @@ function Navbar() {
       </div>
       <div>
         <ul className="flex items-center gap-10">
-          {navLinksdata.map((navlink) => (
-            <li key={navlink._id}>{navlink.title}</li>
+          {navLinksdata.map(({ _id, title, link }) => (
+            <li key={_id}>{title}</li>
           ))}
         </ul>
       </div>
