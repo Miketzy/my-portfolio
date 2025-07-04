@@ -4,7 +4,9 @@ function App() {
   return (
     <>
       <div className="w-full h-auto bg-gray-900 text-white">
-        <Navbar />
+        <div className="max-w-screen-xl">
+          <Navbar />
+        </div>
       </div>
     </>
   );
