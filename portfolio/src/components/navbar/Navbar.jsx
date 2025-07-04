@@ -9,7 +9,7 @@ function Navbar() {
         <img src={logo} alt="logo" className="h-16" />
       </div>
       <div>
-        <ul>
+        <ul className="flex items-center gap-10">
           {navLinksdata.map((navlink) => (
             <li>{navlink.title}</li>
           ))}
