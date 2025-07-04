@@ -1,5 +1,6 @@
 import React from "react";
 import { logo } from "../../assets/index";
+import { navLinksdata } from "../../constant";
 
 function Navbar() {
   return (
@@ -7,7 +8,13 @@ function Navbar() {
       <div className="w-full h-17 mx-auto flex justify-between items-center">
         <img src={logo} alt="logo" className="h-16" />
       </div>
-      <div></div>
+      <div>
+        <ul>
+          {navLinksdata.map((navlink) => (
+            <li>{navlink.title}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
