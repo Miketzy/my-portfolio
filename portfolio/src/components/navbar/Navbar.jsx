@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div>
       <div className="w-full h-17 mx-auto flex justify-between items-center">
-        <img src={logo} alt="logo" className="h-14" />
+        <img src={logo} alt="logo" className="h-16" />
       </div>
       <div></div>
     </div>
