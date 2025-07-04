@@ -4,8 +4,8 @@ import { logo } from "../../assets/index";
 function Navbar() {
   return (
     <div>
-      <div>
-        <img src={logo} alt="logo" className="h-14" />
+      <div className="w-full h-14 mx-auto flex justify-between items-center">
+        <img src={logo} alt="logo" />
       </div>
       <div></div>
     </div>
