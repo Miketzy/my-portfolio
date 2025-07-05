@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, link } from "react-scroll";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constant";
 
@@ -15,7 +16,16 @@ function Navbar() {
               className="text-base font-normal tracking-wide cursor-pointer hover:text-[#85DFE7] duration-300"
               key={_id}
             >
-              {title}
+              <Link
+                activeClass="active"
+                to={link}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                {title}
+              </Link>
             </li>
           ))}
         </ul>
