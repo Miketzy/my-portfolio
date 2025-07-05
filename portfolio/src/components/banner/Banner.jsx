@@ -1,5 +1,5 @@
 import React from "react";
-import { useTypewriter, cursor } from "react-simple-typewriter";
+import { useTypewriter, cursor, Cursor } from "react-simple-typewriter";
 function Banner() {
   const [text] = useTypewriter({
     words: [
@@ -30,6 +30,11 @@ function Banner() {
           </h1>
           <h2 className="text-4xl font-bold text-white">
             a <span>{text}</span>
+            <Cursor
+              cursorBlinking="false"
+              cursorStyle="|"
+              cursorColor="#85DFE7"
+            />
           </h2>
           <p className="text-base leading-6 tracking-wide">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
