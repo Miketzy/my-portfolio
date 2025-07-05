@@ -20,6 +20,12 @@ function Banner() {
           <h2 className="text-4xl font-bold text-white">
             a <span>Lorem ipsum</span>
           </h2>
+          <p className="text-base leading-6 tracking-wide">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            illum ducimus voluptatibus aliquid itaque quos, sapiente illo
+            asperiores excepturi corrupti error rem ut maxime repudiandae a?
+            Ullam exercitationem modi beatae.
+          </p>
         </div>
       </div>
       <div className="w-1/2"></div>
