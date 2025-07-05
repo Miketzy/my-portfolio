@@ -14,7 +14,7 @@ function Banner() {
             <span className="text-[#85DFE7] capitalize">
               Michael John
               <br />
-              Margate
+              G. Margate
             </span>
           </h1>
         </div>
