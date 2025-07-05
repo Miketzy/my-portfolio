@@ -43,6 +43,9 @@ function Banner() {
             Ullam exercitationem modi beatae.
           </p>
         </div>
+        <div>
+          <h2 className="text-base uppercase mb-4">Find me in</h2>
+        </div>
       </div>
       <div className="w-1/2"></div>
     </section>
