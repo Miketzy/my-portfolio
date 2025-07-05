@@ -6,7 +6,12 @@ function Banner() {
       id="home"
       className="w-full h-[800px] flex  border-b-[1px] border-b-black"
     >
-      Banner
+      <div>
+        <div>
+          <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
+        </div>
+      </div>
+      <div></div>
     </section>
   );
 }
