@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 @layer components {
-  .bannerIcon {
-     @apply w-16 h-16 bg-black text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne transition-all cursor-pointer duration-300;
+   .bannerIcon {
+    @apply w-16 h-16 bg-black text-xl inline-flex items-center justify-center rounded-md shadow-lg transition-all cursor-pointer duration-300;
   }
 }
