@@ -17,7 +17,7 @@ function Banner() {
       id="home"
       className="w-full py-20 pb-20 flex items-center border-b-[1px] border-b-black"
     >
-      <div className="w-1/2">
+      <div className="w-1/2 flex flex-col gap-20">
         <div className="flex flex-col gap-5">
           <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
           <h1 className="text-6xl font-bold text-white">
