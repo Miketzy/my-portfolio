@@ -17,7 +17,7 @@ function Banner() {
               G. Margate
             </span>
           </h1>
-          <h2>
+          <h2 className="text-4xl font-bold text-white">
             a <span>Lorem ipsum</span>
           </h2>
         </div>
