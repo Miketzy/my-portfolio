@@ -1,6 +1,17 @@
 import React from "react";
-
+import { useTypewriter, cursor } from "react-simple-typewriter";
 function Banner() {
+  const [text] = useTypewriter({
+    words: [
+      "Frontend Developer.",
+      "Data Entry Encoder.",
+      "Frontend Developer.",
+    ],
+    loop: true,
+    typeSpeed: 20,
+    deleteSpeed: 10,
+    delaySpeed: 2000,
+  });
   return (
     <section
       id="home"
@@ -18,7 +29,7 @@ function Banner() {
             </span>
           </h1>
           <h2 className="text-4xl font-bold text-white">
-            a <span>Lorem ipsum</span>
+            a <span>{text}</span>
           </h2>
           <p className="text-base leading-6 tracking-wide">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
