@@ -1,5 +1,6 @@
 import React from "react";
 import { useTypewriter, cursor, Cursor } from "react-simple-typewriter";
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 function Banner() {
   const [text] = useTypewriter({
     words: [
@@ -45,6 +46,17 @@ function Banner() {
         </div>
         <div>
           <h2 className="text-base uppercase mb-4">Find me in</h2>
+          <div className="flex gap-4">
+            <span className="bannerIcon">
+              <FaFacebookF />
+            </span>
+            <span className="bannerIcon">
+              <FaTwitter />
+            </span>
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </div>
         </div>
       </div>
       <div className="w-1/2"></div>
