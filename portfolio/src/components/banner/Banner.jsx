@@ -16,7 +16,7 @@ function Banner() {
   return (
     <section
       id="home"
-      className="w-full py-12 pb-12 flex items-center border-b-[1px] border-b-black"
+      className="w-full py-14 pb-14 flex items-center border-b-[1px] border-b-black"
     >
       <div className="w-1/2 flex flex-col gap-10">
         <div className="flex flex-col gap-5">
