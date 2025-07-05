@@ -13,7 +13,9 @@ function Banner() {
             {" "}
             Hi, I'm
             <span className="text-[#85DFE7] capitalize">
-              Michael John Margate
+              Michael John
+              <br />
+              Margate
             </span>
           </h1>
         </div>
