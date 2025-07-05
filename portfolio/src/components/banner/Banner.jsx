@@ -10,8 +10,7 @@ function Banner() {
         <div>
           <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
           <h1 className="text-6xl font-bold text-white">
-            {" "}
-            Hi, I'm
+            Hi, I'm{" "}
             <span className="text-[#85DFE7] capitalize">
               Michael John
               <br />
