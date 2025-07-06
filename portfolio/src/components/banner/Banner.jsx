@@ -59,19 +59,6 @@ function Banner() {
             </span>
           </div>
         </div>
-        <div className="flex justify-between">
-          <div>
-            <h2 className="text-base uppercase mb-4">SKILL ON</h2>
-            <div className="flex gap-4">
-              <span className="bannerIcon">
-                <FaReact />
-              </span>
-              <span className="bannerIcon">
-                <SiTailwindcss />
-              </span>
-            </div>
-          </div>
-        </div>
       </div>
       <div className="w-1/2"></div>
     </section>
