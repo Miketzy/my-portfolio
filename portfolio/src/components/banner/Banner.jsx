@@ -1,6 +1,7 @@
 import React from "react";
 import { useTypewriter, cursor, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 function Banner() {
   const [text] = useTypewriter({
     words: [
@@ -56,6 +57,19 @@ function Banner() {
             <span className="bannerIcon">
               <FaLinkedinIn />
             </span>
+          </div>
+        </div>
+        <div className="flex justify-between">
+          <div>
+            <h2 className="text-base uppercase mb-4">SKILL ON</h2>
+            <div className="flex gap-4">
+              <span className="bannerIcon">
+                <FaReact />
+              </span>
+              <span className="bannerIcon">
+                <SiTailwindcss />
+              </span>
+            </div>
           </div>
         </div>
       </div>
