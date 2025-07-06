@@ -10,7 +10,7 @@ function Banner() {
     >
       <LeftBanner />
       <div className="w-1/2">
-        <img src={image} alt="" />
+        <img className="w-[500px] h-[680px] z-10" src={image} alt="" />
       </div>
     </section>
   );
