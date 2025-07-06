@@ -1,6 +1,6 @@
 import React from "react";
 import LeftBanner from "./LeftBanner";
-import { image } from "../../assets/index";
+import { bannerImg } from "../../assets/index";
 
 function Banner() {
   return (
@@ -10,7 +10,7 @@ function Banner() {
     >
       <LeftBanner />
       <div className="w-1/2">
-        <img src={image} alt="" />
+        <img src={bannerImg} alt="bannerImgsss" />
       </div>
     </section>
   );
