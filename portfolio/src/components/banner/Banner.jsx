@@ -1,5 +1,6 @@
 import React from "react";
 import LeftBanner from "./LeftBanner";
+import { image } from "../../assets/index";
 
 function Banner() {
   return (
@@ -8,7 +9,9 @@ function Banner() {
       className="w-full py-13 pb-13 flex items-center border-b-[1px] border-b-black"
     >
       <LeftBanner />
-      <div className="w-1/2"></div>
+      <div className="w-1/2">
+        <img src={image} alt="" />
+      </div>
     </section>
   );
 }
