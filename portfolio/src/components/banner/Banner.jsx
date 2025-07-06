@@ -1,7 +1,8 @@
 import React from "react";
 import { useTypewriter, cursor, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import LeftBanner from "./LeftBanner";
+
 function Banner() {
   const [text] = useTypewriter({
     words: [
@@ -19,7 +20,8 @@ function Banner() {
       id="home"
       className="w-full py-13 pb-13 flex items-center border-b-[1px] border-b-black"
     >
-      <div className="w-1/2 flex flex-col gap-10">
+      <LeftBanner />
+      {/*<div className="w-1/2 flex flex-col gap-10">
         <div className="flex flex-col gap-5">
           <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
           <h1 className="text-6xl font-bold text-white">
@@ -59,7 +61,7 @@ function Banner() {
             </span>
           </div>
         </div>
-      </div>
+      </div>*/}
       <div className="w-1/2"></div>
     </section>
   );
