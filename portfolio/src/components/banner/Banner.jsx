@@ -9,7 +9,7 @@ function Banner() {
       className="w-full py-13 pb-13 flex items-center border-b-[1px] border-b-black"
     >
       <LeftBanner />
-      <div className="w-1/2">
+      <div className="w-1/2 flex justify0center items-center">
         <img className="w-[500px] h-[680px] z-10" src={image} alt="" />
       </div>
     </section>
