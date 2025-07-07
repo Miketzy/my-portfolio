@@ -17,7 +17,7 @@ function LeftBanner() {
   return (
     <div className="w-1/2 flex flex-col gap-10">
       <div className="flex flex-col gap-5">
-        <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
+        <h4 className="text-lg font-normal">{""}WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm{" "}
           <span className="text-[#85DFE7] capitalize">
