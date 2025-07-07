@@ -6,7 +6,7 @@ import { navLinksdata } from "../../constant";
 function Navbar() {
   return (
     <div
-      className="w-full h-18 fixed top-0 bg-gray-900 mx-auto flex justify-between items-center border-b-[1px] border-b-white-600
+      className="w-full h-18 fixed top-0 bg-gray-900 z-50 mx-auto flex justify-between items-center border-b-[1px] border-b-white-600
 "
     >
       <div>
