@@ -25,7 +25,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={2000}
+                duration={500}
               >
                 {title}
               </Link>
