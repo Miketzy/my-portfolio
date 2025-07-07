@@ -6,7 +6,7 @@ function Banner() {
   return (
     <section
       id="home"
-      className="w-full py-20 pb-10 flex items-center border-b border-b-black"
+      className="w-full py-20 pb-20 flex items-center border-b border-b-black"
     >
       <LeftBanner />
       <div className="w-1/2 flex justify-center items-center relative">
