@@ -14,32 +14,32 @@ function Features() {
       <div className="grid grid-cols-3 gap-20">
         <Card
           title="Business Strategy"
-          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod voluptate, esse rerum sed! Officia, nisi numquam non qui a eligendi fugit rem aliquid earum architecto!"
+          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod "
           icon={<FaBars />}
         />
         <Card
           title="Business Strategy"
-          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod voluptate, esse rerum sed! Officia, nisi numquam non qui a eligendi fugit rem aliquid earum architecto!"
+          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod "
           icon=""
         />
         <Card
           title="Business Strategy"
-          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod voluptate, esse rerum sed! Officia, nisi numquam non qui a eligendi fugit rem aliquid earum architecto!"
+          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod "
           icon=""
         />
         <Card
           title="Business Strategy"
-          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod voluptate, esse rerum sed! Officia, nisi numquam non qui a eligendi fugit rem aliquid earum architecto!"
+          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod "
           icon=""
         />
         <Card
           title="Business Strategy"
-          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod voluptate, esse rerum sed! Officia, nisi numquam non qui a eligendi fugit rem aliquid earum architecto!"
+          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod "
           icon=""
         />
         <Card
           title="Business Strategy"
-          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod voluptate, esse rerum sed! Officia, nisi numquam non qui a eligendi fugit rem aliquid earum architecto!"
+          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod "
           icon=""
         />
       </div>
