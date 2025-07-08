@@ -35,12 +35,11 @@ function LeftBanner() {
           />
         </h2>
         <p className="text-base leading-6 tracking-wide">
-          I’m a fresh graduate in Information Technology with a strong interest
-          in frontend development. While I may not be the fastest learner, I am
-          hardworking, dedicated, and always interested in learning and
-          improving. I enjoy creating user-friendly websites using HTML, CSS,
-          JavaScript, React, and Tailwind CSS. I’m committed to growing at my
-          own pace through effort and consistency.
+          I am a fresh graduate in Information Technology. I am very interested
+          in frontend development. I may not learn fast, but I work hard and
+          always try my best. I enjoy making simple and clean websites using
+          HTML, CSS, JavaScript, React, and Tailwind CSS. I want to keep
+          learning and improving step by step through effort and practice.
         </p>
       </div>
       <div>
