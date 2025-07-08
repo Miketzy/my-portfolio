@@ -7,7 +7,7 @@ function Features() {
       id="features"
       className="w-full h-[800px] py-20 flex  border-b-[1px] border-b-black"
     >
-      <Title />
+      <Title title="Features" des="What I do" />
     </section>
   );
 }
