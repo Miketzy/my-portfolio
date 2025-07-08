@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-scroll";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constant";
