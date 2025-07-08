@@ -61,7 +61,7 @@ function LeftBanner() {
               href="https://x.com/john_marga74179"
               target="_blank"
               rel="noopener noreferrer"
-              className=""
+              className="w-full h-full flex items-center justify-center"
             >
               <BsTwitterX />
             </a>
