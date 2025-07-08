@@ -1,6 +1,6 @@
 import React from "react";
 import { useTypewriter, cursor, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
 function LeftBanner() {
@@ -65,6 +65,9 @@ function LeftBanner() {
             >
               <BsTwitterX />
             </a>
+          </span>
+          <span className="bannerIcon">
+            <FaInstagram />
           </span>
           <span className="bannerIcon">
             <FaLinkedinIn />
