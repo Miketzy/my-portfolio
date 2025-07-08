@@ -11,7 +11,7 @@ function Card({ title, des, icon }) {
         <div className="flex flex-col gap-6">
           <h2 className="text-2xl font-bold text-white">{title}</h2>
           <p className="text-base text-gray-300">{des}</p>
-          <span className="text-2xl text-[#85DFE7] group-hover:translate-x-2 transition-transform duration-300">
+          <span className="text-2xl text-[#85DFE7] ">
             <HiArrowRight />
           </span>
         </div>
