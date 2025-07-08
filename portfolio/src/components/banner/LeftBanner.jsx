@@ -51,8 +51,9 @@ function LeftBanner() {
               target="_blank"
               rel="noopener noreferrer"
               className="w-full h-full flex items-center justify-center"
-            ></a>
-            <FaFacebookF />
+            >
+              <FaFacebookF />
+            </a>
           </span>
           <span className="bannerIcon">
             <FaTwitter />
