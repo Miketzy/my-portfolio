@@ -6,10 +6,10 @@ function Features() {
   return (
     <section
       id="features"
-      className="w-full h-[800px] py-20 border-b-[1px] border-b-black"
+      className="w-full  py-20 border-b-[1px] border-b-black"
     >
       <Title title="Features" des="What I do" />
-      <div className="grid grid-col-3 gap-20">
+      <div className="grid grid-cols-3 gap-20">
         <Card />
         <Card />
         <Card />
