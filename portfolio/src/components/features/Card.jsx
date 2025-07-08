@@ -6,6 +6,9 @@ function Card({ title, des, icon }) {
       <div>
         <span className="txt-5xl text-[#85DFE7]">{icon}</span>
       </div>
+      <div>
+        <h2 className="txt-2xl font-bold">{title}</h2>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "../layouts/Title";
 import Card from "./Card";
+import { FaBars } from "react-icons/fa";
 
 function Features() {
   return (
@@ -14,7 +15,7 @@ function Features() {
         <Card
           title="Business Strategy"
           des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod voluptate, esse rerum sed! Officia, nisi numquam non qui a eligendi fugit rem aliquid earum architecto!"
-          icon=""
+          icon={<FaBars />}
         />
         <Card
           title="Business Strategy"
