@@ -6,7 +6,10 @@ function Features() {
       id="features"
       className="w-full h-[800px] flex  border-b-[1px] border-b-black"
     >
-      Banner
+      <h3 className="text-sm uppercase font-light text-[#85DFE7] tracking-wide">
+        Features
+      </h3>
+      <h1 className="text-5xl font-bold capitalize">What I do</h1>
     </section>
   );
 }
