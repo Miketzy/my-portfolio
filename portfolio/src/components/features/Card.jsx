@@ -1,4 +1,5 @@
 import React from "react";
+import { HiArrowRight } from "react-icons/hi2";
 
 function Card({ title, des, icon }) {
   return (
@@ -15,6 +16,9 @@ function Card({ title, des, icon }) {
         <div className="flex flex-col gap-6">
           <h2 className="text-2xl font-bold">{title}</h2>
           <p className="base">{des}</p>
+          <span className="text-2xl text-[#85DFE7]">
+            <HiArrowRight />
+          </span>
         </div>
       </div>
     </div>
