@@ -1,16 +1,13 @@
 import React from "react";
-import { Link, link } from "react-scroll";
+import { Link } from "react-scroll";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constant";
 
 function Navbar() {
   return (
-    <div
-      className="w-full h-18 fixed top-0 bg-gray-900 z-50 mx-auto flex justify-between items-center border-b-[1px] border-b-white-600
-"
-    >
+    <div className="w-full h-16 fixed top-0 bg-gray-900 z-50 flex justify-between items-center border-b border-b-white/60">
       <div>
-        <img src={logo} alt="logo" className="h-16" />
+        <img src={logo} alt="logo" className="h-12" />
       </div>
       <div>
         <ul className="flex items-center gap-10">
