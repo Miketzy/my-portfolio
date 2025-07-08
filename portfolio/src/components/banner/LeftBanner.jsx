@@ -46,6 +46,12 @@ function LeftBanner() {
         <h2 className="text-base uppercase mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
+            <a
+              href="https://www.facebook.com/michael.john.garcia.margate"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full h-full flex items-center justify-center"
+            ></a>
             <FaFacebookF />
           </span>
           <span className="bannerIcon">
