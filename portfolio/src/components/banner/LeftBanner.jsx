@@ -35,10 +35,12 @@ function LeftBanner() {
           />
         </h2>
         <p className="text-base leading-6 tracking-wide">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum illum
-          ducimus voluptatibus aliquid itaque quos, sapiente illo asperiores
-          excepturi corrupti error rem ut maxime repudiandae a? Ullam
-          exercitationem modi beatae.
+          I’m a fresh graduate in Information Technology with a strong interest
+          in frontend development. While I may not be the fastest learner, I am
+          hardworking, dedicated, and always interested in learning and
+          improving. I enjoy creating user-friendly websites using HTML, CSS,
+          JavaScript, React, and Tailwind CSS. I’m committed to growing at my
+          own pace through effort and consistency.
         </p>
       </div>
       <div>
