@@ -67,7 +67,14 @@ function LeftBanner() {
             </a>
           </span>
           <span className="bannerIcon">
-            <FaInstagram />
+            <a
+              href="https://www.instagram.com/reiji.margate/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full h-full flex items-center justify-center"
+            >
+              <FaInstagram />
+            </a>
           </span>
           <span className="bannerIcon">
             <FaLinkedinIn />
