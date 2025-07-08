@@ -57,7 +57,14 @@ function LeftBanner() {
             </a>
           </span>
           <span className="bannerIcon">
-            <BsTwitterX />
+            <a
+              href="https://x.com/john_marga74179"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full h-full flex items-center justify-center"
+            >
+              <BsTwitterX />
+            </a>
           </span>
           <span className="bannerIcon">
             <FaLinkedinIn />
