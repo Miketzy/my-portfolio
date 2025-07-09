@@ -20,7 +20,7 @@ function Features() {
     >
       <Title title="Features" des="What I do" />
 
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-20">
         <Card
           title="Clean HTML Structure"
           des="I make simple and organized web pages using html so they are easy to read and understand."
