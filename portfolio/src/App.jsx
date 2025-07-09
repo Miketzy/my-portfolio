@@ -5,7 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 function App() {
   return (
     <>
-      <div className="w-full h-auto bg-gray-900 text-white oveflow-x-hidden">
+      <div className="w-full h-auto bg-gray-900 text-white overflow-x-hidden">
         <div className="max-w-screen-xl mx-auto">
           <Navbar />
           <Banner />
