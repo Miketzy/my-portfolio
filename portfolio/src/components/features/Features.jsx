@@ -47,7 +47,7 @@ function Features() {
           icon={<FaBookOpen />}
         />
         <Card
-          title="Simple frontend projects"
+          title="Simple Projects"
           des="I make small websites using React and Tailwind CSS, including our capstone project, which I build myself."
           icon={<FaLaptopCode />}
         />
