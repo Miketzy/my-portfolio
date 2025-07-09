@@ -7,11 +7,17 @@ function Card({ title, des, icon }) {
       <div className="h-72 w-full overflow-hidden">
         <div className="flex flex-col gap-10 h-full translate-y-16 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
           <div className="w-10 h-8 flex flex-col justify-between">
-            {/*<span className="text-5xl text-[#85DFE7]">{icon}</span>*/}
-            <span className="w-full h-[2px] rounded-lg bg-[#85DFE7] inline-flex"></span>
-            <span className="w-full h-[2px] rounded-lg bg-[#85DFE7] inline-flex"></span>
-            <span className="w-full h-[2px] rounded-lg bg-[#85DFE7] inline-flex"></span>
-            <span className="w-full h-[2px] rounded-lg bg-[#85DFE7] inline-flex"></span>
+            {icon ? (
+              <span className="text-5xl text-[#85DFE7]">{icon}</span>
+            ) : (
+              <>
+                {" "}
+                <span className="w-full h-[2px] rounded-lg bg-[#85DFE7] inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-[#85DFE7] inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-[#85DFE7] inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-[#85DFE7] inline-flex"></span>
+              </>
+            )}
           </div>
           <div className="flex flex-col gap-6">
             <h2 className="text-2xl font-bold text-white">{title}</h2>
