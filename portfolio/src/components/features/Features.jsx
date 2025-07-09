@@ -28,12 +28,12 @@ function Features() {
         />
         <Card
           title="Tailwind CSS Styling"
-          des="I use Tailwind CSS to style websites so they look neat, clean and easy to use."
+          des="I use Tailwind CSS to make websites look nice and simple. It helps me work faster and keeps my code easy to understand."
           icon={<SiTailwindcss />}
         />
         <Card
           title="React UI Development"
-          des="I build simple and reusable parts of a website using React."
+          des="I build small and reusable parts of a website using React. This helps me make webistes easier to change and manage."
           icon={<FaReact />}
         />
         <Card
