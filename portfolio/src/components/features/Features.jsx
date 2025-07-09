@@ -1,7 +1,16 @@
 import React from "react";
 import Title from "../layouts/Title";
 import Card from "./Card";
-import { FaBars } from "react-icons/fa";
+import {
+  FaBars,
+  FaBook,
+  FaBookOpen,
+  FaHtml5,
+  FaLaptopCode,
+  FaMobileAlt,
+  FaReact,
+} from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 
 function Features() {
   return (
@@ -13,34 +22,34 @@ function Features() {
 
       <div className="grid grid-cols-3 gap-20">
         <Card
-          title="Business Strategy"
-          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod "
-          icon={<FaBars />}
+          title="Clean HTML Structure"
+          des="I make simple and organized web pages using html so they are easy to read and understand."
+          icon={<FaHtml5 />}
         />
         <Card
-          title="Business Strategy"
-          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod "
-          icon=""
+          title="Tailwind CSS Styling"
+          des="I use Tailwind CSS to style websites so they look neat, clean and easy to use."
+          icon={<SiTailwindcss />}
         />
         <Card
-          title="Business Strategy"
-          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod "
-          icon=""
+          title="React UI Development"
+          des="I build simple and reusable parts of a website using React."
+          icon={<FaReact />}
         />
         <Card
-          title="Business Strategy"
-          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod "
-          icon=""
+          title="Responsive Design"
+          des="I'm still learning how to make websites look good on both phones and computers."
+          icon={<FaMobileAlt />}
         />
         <Card
-          title="Business Strategy"
-          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod "
-          icon=""
+          title="Low but Steady Learner"
+          des="i learn step by step, and I keep practicing to get better at frontend developemnt"
+          icon={<FaBookOpen />}
         />
         <Card
-          title="Business Strategy"
-          des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aperiam quibusdam soluta culpa quod "
-          icon=""
+          title="Simple frontend projects"
+          des="I make small websites using React and Tailwind CSS, including our capstone project, which I build myself."
+          icon={<FaLaptopCode />}
         />
       </div>
     </section>
