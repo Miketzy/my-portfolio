@@ -16,11 +16,11 @@ function Features() {
   return (
     <section
       id="features"
-      className="w-full py-20 border-b-[1px] border-b-black"
+      className="w-full py-20 border-b-[1px] border-b-black p-4"
     >
       <Title title="Features" des="What I do" />
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20 p-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20">
         <Card
           title="Clean HTML Structure"
           des="I make simple and organized web pages using html so they are easy to read and understand."
