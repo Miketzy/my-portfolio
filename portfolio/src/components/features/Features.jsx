@@ -43,7 +43,7 @@ function Features() {
         />
         <Card
           title="Low but Steady Learner"
-          des="i learn step by step, and I keep practicing to get better at frontend developemnt"
+          des="i learn step by step, and I keep practicing to get better at frontend development"
           icon={<FaBookOpen />}
         />
         <Card
