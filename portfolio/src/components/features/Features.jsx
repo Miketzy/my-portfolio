@@ -16,7 +16,7 @@ function Features() {
   return (
     <section
       id="features"
-      className="w-full pt-20 pb-20 border-b-[1px] border-b-black p-4"
+      className="w-full pt-10 pb-10 sm:pt-20 md:pt-20 border-b-[1px] border-b-black p-4"
     >
       <Title title="Features" des="What I do" />
 
