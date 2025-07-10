@@ -4,7 +4,7 @@ import { navLinksdata } from "../../constant";
 
 function Navbar() {
   return (
-    <div className="w-full h-16 sticky top-0 bg-gray-900 z-50 flex justify-between items-center border-b border-b-white/60">
+    <div className="w-full h-16 fixed top-0 left-0 z-50 bg-gray-900 flex justify-between items-center px-4 border-b border-b-white/60">
       <div>
         <img src={logo} alt="logo" className="h-12" />
       </div>
