@@ -2,87 +2,83 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constant";
-import { HiMenu } from "react-icons/hi";
+import { HiMenu, HiX } from "react-icons/hi";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const toggleMenu = () => setMenuOpen(!menuOpen);
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <>
-      {/* Main Navbar */}
-      <div className="w-full h-16 fixed top-0 left-0 z-50 bg-gray-900 border-b border-b-white/60">
-        <div className="max-w-screen-xl mx-auto h-full px-4 flex justify-between items-center">
-          {/* Logo */}
+    <div className="w-full h-16 fixed top-0 left-0 z-50 bg-gray-900 border-b border-b-white/60">
+      <div className="max-w-screen-xl mx-auto h-full px-4 flex justify-between items-center">
+        {/* Logo */}
+        <div>
           <img src={logo} alt="logo" className="h-12" />
+        </div>
 
-          {/* Desktop Menu */}
-          <ul className="hidden md:flex items-center gap-10">
-            {navLinksdata.map(({ _id, title, link }) => (
-              <li
-                key={_id}
-                className="text-base font-normal tracking-wide cursor-pointer hover:text-[#85DFE7] duration-300"
+        {/* Desktop Menu */}
+        <ul className="hidden md:flex items-center gap-10">
+          {navLinksdata.map(({ _id, title, link }) => (
+            <li
+              className="text-base font-normal tracking-wide cursor-pointer hover:text-[#85DFE7] duration-300"
+              key={_id}
+            >
+              <Link
+                activeClass="active"
+                to={link}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
               >
-                <Link
-                  activeClass="active"
-                  to={link}
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                >
-                  {title}
-                </Link>
-              </li>
-            ))}
-          </ul>
+                {title}
+              </Link>
+            </li>
+          ))}
+        </ul>
 
-          {/* Mobile Menu Icon */}
-          <div
-            className="md:hidden text-white text-2xl cursor-pointer"
-            onClick={() => setMenuOpen(true)}
-          >
-            <HiMenu />
-          </div>
+        {/* Hamburger Icon */}
+        <div
+          className="md:hidden text-white text-2xl cursor-pointer"
+          onClick={toggleMenu}
+        >
+          {menuOpen ? <HiX /> : <HiMenu />}
         </div>
       </div>
 
-      {/* Overlay Backdrop + Sidebar */}
-      {menuOpen && (
-        <>
-          {/* Backdrop */}
-          <div
-            className="fixed inset-0 bg-black/50 z-40"
-            onClick={closeMenu}
-          ></div>
+      {/* Mobile Sidebar Menu */}
+      <div
+        className={`fixed top-0 left-0 w-3/4 h-screen bg-gray-800 p-6 z-40 transform transition-transform duration-300 ease-in-out ${
+          menuOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
+      >
+        <div className="flex justify-between items-center mb-6">
+          <h2 className="text-xl text-white font-bold">Menu</h2>
+        </div>
 
-          {/* Sidebar */}
-          <div className="fixed top-0 left-0 w-3/4 sm:w-2/5 h-screen bg-gray-800 p-6 z-50 transform transition-transform duration-300 ease-in-out">
-            <h2 className="text-xl text-white font-bold mb-6">Menu</h2>
-            <ul className="flex flex-col gap-6">
-              {navLinksdata.map(({ _id, title, link }) => (
-                <li
-                  key={_id}
-                  onClick={closeMenu}
-                  className="text-white text-lg font-medium cursor-pointer hover:text-[#85DFE7] transition"
-                >
-                  <Link
-                    to={link}
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    {title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </>
-      )}
-    </>
+        <ul className="flex flex-col gap-6">
+          {navLinksdata.map(({ _id, title, link }) => (
+            <li
+              className="text-white text-lg font-medium cursor-pointer hover:text-[#85DFE7] transition"
+              key={_id}
+              onClick={closeMenu}
+            >
+              <Link
+                to={link}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                {title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
   );
 }
 
