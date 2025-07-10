@@ -17,7 +17,7 @@ function LeftBanner() {
   });
 
   return (
-    <div className="pt-20 md:pt-10 w-full md:w-1/2 flex flex-col gap-10">
+    <div className="pt-20 md:pt-1 w-full md:w-1/2 flex flex-col gap-10">
       {/* Title Section */}
       <div className="flex flex-col gap-5">
         <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
