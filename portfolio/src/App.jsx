@@ -5,13 +5,11 @@ import Navbar from "./components/navbar/Navbar";
 function App() {
   return (
     <>
-      <div className="w-full h-auto bg-gray-900 text-white">
+      <div className="w-full h-auto bg-gray-900 text-white overflow-x-hidden">
         <Navbar />
-        <div className="overflow-x-hidden">
-          <div className="max-w-screen-xl mx-auto">
-            <Banner />
-            <Features />
-          </div>
+        <div className="max-w-screen-xl mx-auto">
+          <Banner />
+          <Features />
         </div>
       </div>
     </>
