@@ -16,7 +16,7 @@ function LeftBanner() {
     delaySpeed: 2000,
   });
   return (
-    <div className="w-full md:w-1/2 flex flex-col items-center text-center md:items-start md:text-left gap-10">
+    <div className="w-1/2 flex flex-col gap-10">
       <div className="flex flex-col gap-5">
         <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
