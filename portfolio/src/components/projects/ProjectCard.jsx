@@ -13,22 +13,23 @@ function ProjectCard({ title, des, src }) {
         />
       </div>
       <div className="w-full mt-5 flex flex-col gap-6">
-        <div className="flex items-center justify-between">
-          <h3 className="text-base uppercase text-[#85DFE7] font-normal">
-            {title}
-          </h3>
-          <div className="flex gap-2">
-            <span className="text-lg w-10 h-10 rounded-full bg-gray-900 inline-flex justify-center items-center hover:text-[#85DFE7] duration-300 cursor-pointer">
-              <BsGithub />
-            </span>
-            <span className="text-lg w-10 h-10 rounded-full bg-gray-900 inline-flex justify-center items-center hover:text-[#85DFE7] duration-300 cursor-pointer">
-              <FaGlobe />
-            </span>
+        <div>
+          <div className="flex items-center justify-between">
+            <h3 className="text-base uppercase text-[#85DFE7] font-normal">
+              {title}
+            </h3>
+            <div className="flex gap-2">
+              <span className="text-lg w-10 h-10 rounded-full bg-gray-900 inline-flex justify-center items-center hover:text-[#85DFE7] duration-300 cursor-pointer">
+                <BsGithub />
+              </span>
+              <span className="text-lg w-10 h-10 rounded-full bg-gray-900 inline-flex justify-center items-center hover:text-[#85DFE7] duration-300 cursor-pointer">
+                <FaGlobe />
+              </span>
+            </div>
           </div>
-
-          {/*<p className="text-sm tracking-wide mt-3 hover:text-[#85DFE7] duration-300">
+          <p className="text-sm tracking-wide mt-3 hover:text-[#85DFE7] duration-300">
             {des}
-          </p>*/}
+          </p>
         </div>
       </div>
     </div>
