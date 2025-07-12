@@ -6,7 +6,7 @@ function Projects() {
       id="projects"
       className="w-full  pt-20 pb-20 border-b-[1px] border-b-black p-4"
     >
-      <div className="flex justify-center">
+      <div className="flex justify-center items-center">
         <Title
           title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
           des="My Projects"
