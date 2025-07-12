@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "../layouts/Title";
+import ProjectCard from "./ProjectCard";
 function Projects() {
   return (
     <section
@@ -11,6 +12,14 @@ function Projects() {
           title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
           des="My Projects"
         />
+      </div>
+      <div className="grid grid-cols-3 gap-14">
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
       </div>
     </section>
   );
