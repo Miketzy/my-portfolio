@@ -15,7 +15,7 @@ function ProjectCard({ title, des, src }) {
       <div className="w-full mt-5">
         <div className="flex items-center justify-between">
           <h3>{title}</h3>
-          <div>
+          <div className="flex gap-4">
             <span className="text-lg w-10 h-10 rounded-full bg-gray-900 inline-flex justify-center items-center hover:text-[#85DFE7] duration-300 cursor-pointer">
               <BsGithub />
             </span>
