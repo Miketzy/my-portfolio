@@ -25,7 +25,7 @@ function Resume() {
         <div className="w-full lg:w-[350px]">
           <h1 className="text-4xl text-[#85DFE7] mb-2">Why hire me?</h1>
 
-          <p className="text-sm text-gray-300 mb-6 leading-relaxed">
+          <p className="text-base text-gray-300 mb-6 leading-relaxed">
             I am a passionate and detail-oriented learner, always ready to adapt
             and grow. With a strong dedication to frontend development, I bring
             creativity, curiosity, and commitment to any team I join.
