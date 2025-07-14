@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "../layouts/Title";
+import ResumeCard from "./ResumeCard";
 
 function Resume() {
   return (
@@ -10,13 +11,16 @@ function Resume() {
       <div className="flex justify-center items-center text-center">
         <Title title="No Experience" des="My Resume" />
       </div>
-      <div className="">
+      <div className="flex gap-10">
         <ul className="flex flex-col gap-10">
           <li className="resumeLi">Education</li>
           <li className="resumeLi">Skills</li>
           <li className="resumeLi">Experience</li>
           <li className="resumeLi">About me</li>
         </ul>
+        <div className="">
+          <ResumeCard />
+        </div>
       </div>
     </section>
   );
