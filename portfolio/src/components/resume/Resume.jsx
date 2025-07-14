@@ -23,7 +23,8 @@ function Resume() {
       <div className="flex flex-col lg:flex-row gap-10 mt-10">
         {/* Left Section */}
         <div className="w-full lg:w-[350px]">
-          <h1 className="text-[#85DFE7] mb-2">Why hire me?</h1>
+          <h1 className="text-2xl text-[#85DFE7] mb-2">Why hire me?</h1>
+
           <p className="text-sm text-gray-300 mb-6 leading-relaxed">
             I am a passionate and detail-oriented learner, always ready to adapt
             and grow. With a strong dedication to frontend development, I bring
