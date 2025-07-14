@@ -11,7 +11,7 @@ function Resume() {
         <Title title="No Experience" des="My Resume" />
       </div>
       <div className="">
-        <ul>
+        <ul className="flex flex-col gap-10">
           <li className="resumeLi">Education</li>
           <li className="resumeLi">Skills</li>
           <li className="resumeLi">Experience</li>
