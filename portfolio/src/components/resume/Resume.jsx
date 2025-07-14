@@ -20,7 +20,7 @@ function Resume() {
         <Title title="No Experience" des="My Resume" />
       </div>
       <div className="flex flex-col lg:flex-row gap-10 mt-10">
-        <div className="bg-gray-300">
+        <div className="bg-gray-300 w-{300px}">
           <h4 className="text-[#85DFE7] text-lg">Why hire me?</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
