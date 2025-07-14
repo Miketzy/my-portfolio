@@ -11,14 +11,12 @@ function Resume() {
         <Title title="No Experience" des="My Resume" />
       </div>
       <div className="">
-        <div className="flex flex-col gap-10">
-          <ul>
-            <li className="resumeLi">Education</li>
-            <li className="resumeLi">Skills</li>
-            <li className="resumeLi">Experience</li>
-            <li className="resumeLi">About me</li>
-          </ul>
-        </div>
+        <ul className="flex flex-col gap-10">
+          <li className="resumeLi">Education</li>
+          <li className="resumeLi">Skills</li>
+          <li className="resumeLi">Experience</li>
+          <li className="resumeLi">About me</li>
+        </ul>
       </div>
     </section>
   );
