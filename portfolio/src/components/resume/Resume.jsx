@@ -10,6 +10,14 @@ function Resume() {
       <div className="flex justify-center items-center text-center">
         <Title title="No Experience" des="My Resume" />
       </div>
+      <div>
+        <ul>
+          <li className="resumeLi">Education</li>
+          <li>Skills</li>
+          <li>Experience</li>
+          <li>About me</li>
+        </ul>
+      </div>
     </section>
   );
 }
