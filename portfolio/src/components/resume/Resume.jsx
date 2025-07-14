@@ -20,6 +20,9 @@ function Resume() {
         </ul>
         <div className="">
           <ResumeCard />
+          <ResumeCard />
+          <ResumeCard />
+          <ResumeCard />
         </div>
       </div>
     </section>
