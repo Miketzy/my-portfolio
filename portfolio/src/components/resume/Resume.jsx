@@ -20,32 +20,41 @@ function Resume() {
         <Title title="No Experience" des="My Resume" />
       </div>
       <div className="flex flex-col lg:flex-row gap-10 mt-10">
-        <ul className="flex flex-col gap-6">
-          <li
-            onClick={() => setActiveSection("education")}
-            className={isActive("education")}
-          >
-            Education
-          </li>
-          <li
-            onClick={() => setActiveSection("skills")}
-            className={isActive("skills")}
-          >
-            Skills
-          </li>
-          <li
-            onClick={() => setActiveSection("experience")}
-            className={isActive("experience")}
-          >
-            Experience
-          </li>
-          <li
-            onClick={() => setActiveSection("aboutme")}
-            className={isActive("aboutme")}
-          >
-            About Me
-          </li>
-        </ul>
+        <div>
+          <h4 className="text-[#85DFE7] text-lg">Why hire me?</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            similique obcaecati, facere vero commodi at ad est velit
+            consequuntur iure animi dolore unde dolorum alias molestiae quis
+            autem. Tempora, quia?
+          </p>
+          <ul className="flex flex-col gap-6">
+            <li
+              onClick={() => setActiveSection("education")}
+              className={isActive("education")}
+            >
+              Education
+            </li>
+            <li
+              onClick={() => setActiveSection("skills")}
+              className={isActive("skills")}
+            >
+              Skills
+            </li>
+            <li
+              onClick={() => setActiveSection("experience")}
+              className={isActive("experience")}
+            >
+              Experience
+            </li>
+            <li
+              onClick={() => setActiveSection("aboutme")}
+              className={isActive("aboutme")}
+            >
+              About Me
+            </li>
+          </ul>
+        </div>
         <div className="flex-1">
           {activeSection === "education" && <Education />}
           {activeSection === "skills" && <Skills />}
