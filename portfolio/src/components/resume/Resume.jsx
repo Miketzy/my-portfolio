@@ -22,7 +22,7 @@ function Resume() {
 
       <div className="flex flex-col lg:flex-row gap-10 mt-10">
         {/* Left Section */}
-        <div className="w-full lg:w-[340px]">
+        <div className="w-full lg:w-[350px]">
           <h1 className="text-4xl text-[#85DFE7] mb-2">Why hire me?</h1>
 
           <p className="text-base text-gray-300 mb-6 leading-relaxed text-white">
