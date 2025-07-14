@@ -19,16 +19,17 @@ function Resume() {
       <div className="flex justify-center items-center text-center">
         <Title title="No Experience" des="My Resume" />
       </div>
+
       <div className="flex flex-col lg:flex-row gap-10 mt-10">
-        <div className="bg-gray-300 w-{300px}">
-          <h4 className="text-[#85DFE7] text-lg">Why hire me?</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            similique obcaecati, facere vero commodi at ad est velit
-            consequuntur iure animi dolore unde dolorum alias molestiae quis
-            autem. Tempora, quia?
+        {/* Left Section */}
+        <div className="w-full lg:w-[350px]">
+          <h4 className="text-[#85DFE7] text-lg mb-2">Why hire me?</h4>
+          <p className="text-sm text-gray-300 mb-6 leading-relaxed">
+            I am a passionate and detail-oriented learner, always ready to adapt
+            and grow. With a strong dedication to frontend development, I bring
+            creativity, curiosity, and commitment to any team I join.
           </p>
-          <ul className="flex flex-col gap-6">
+          <ul className="flex flex-col gap-4">
             <li
               onClick={() => setActiveSection("education")}
               className={isActive("education")}
@@ -55,7 +56,9 @@ function Resume() {
             </li>
           </ul>
         </div>
-        <div className="flex-1">
+
+        {/* Right Section */}
+        <div className="flex-1 min-w-[300px]">
           {activeSection === "education" && <Education />}
           {activeSection === "skills" && <Skills />}
           {activeSection === "experience" && <Experience />}
