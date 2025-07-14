@@ -11,7 +11,7 @@ function Resume() {
       <div className="flex justify-center items-center text-center">
         <Title title="No Experience" des="My Resume" />
       </div>
-      <div className="flex gap-10">
+      <div className="flex gap-10 lg:items-center">
         <ul className="flex flex-col gap-10">
           <li className="resumeLi">Education</li>
           <li className="resumeLi">Skills</li>
