@@ -13,9 +13,9 @@ function Resume() {
       <div className="">
         <ul>
           <li className="resumeLi">Education</li>
-          <li>Skills</li>
-          <li>Experience</li>
-          <li>About me</li>
+          <li className="resumeLi">Skills</li>
+          <li className="resumeLi">Experience</li>
+          <li className="resumeLi">About me</li>
         </ul>
       </div>
     </section>
