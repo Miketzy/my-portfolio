@@ -13,6 +13,9 @@
          cursor-pointer hover:bg-[#85DFE7] 
           duration-300  border-[1px] rounded-lg;
     }
+    .activeLi {
+      @apply bg-[#85DFE7] text-gray-900 font-bold;
+    }
 }
 
 .active{

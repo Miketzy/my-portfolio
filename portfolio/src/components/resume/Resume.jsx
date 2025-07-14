@@ -1,52 +1,56 @@
 import React, { useState } from "react";
 import Title from "../layouts/Title";
-import ResumeCard from "./ResumeCard";
 import Education from "./Education";
 import Skills from "./Skills";
 import Experience from "./Experience";
 import Aboutme from "./Aboutme";
 
 function Resume() {
-  const [educationData, setEducationData] = useState(true);
-  const [skillsData, setSkillsData] = useState(false);
-  const [experienceData, setExperienceData] = useState(false);
-  const [aboutmeData, setAboutmeData] = useState(false);
+  const [activeSection, setActiveSection] = useState("education");
 
-  const handleSection = (section) => {
-    setEducationData(section === "education");
-    setSkillsData(section === "skills");
-    setExperienceData(section === "experience");
-    setAboutmeData(section === "aboutme");
-  };
+  const isActive = (section) =>
+    activeSection === section ? "resumeLi activeLi" : "resumeLi";
 
   return (
     <section
       id="resume"
-      className="w-full pt-20 pb-20 border-b border-b-black p-4"
+      className="w-full pt-20 pb-20 border-b border-black p-4"
     >
       <div className="flex justify-center items-center text-center">
         <Title title="No Experience" des="My Resume" />
       </div>
       <div className="flex flex-col lg:flex-row gap-10 mt-10">
         <ul className="flex flex-col gap-6">
-          <li onClick={() => handleSection("education")} className="resumeLi">
+          <li
+            onClick={() => setActiveSection("education")}
+            className={isActive("education")}
+          >
             Education
           </li>
-          <li onClick={() => handleSection("skills")} className="resumeLi">
+          <li
+            onClick={() => setActiveSection("skills")}
+            className={isActive("skills")}
+          >
             Skills
           </li>
-          <li onClick={() => handleSection("experience")} className="resumeLi">
+          <li
+            onClick={() => setActiveSection("experience")}
+            className={isActive("experience")}
+          >
             Experience
           </li>
-          <li onClick={() => handleSection("aboutme")} className="resumeLi">
-            About me
+          <li
+            onClick={() => setActiveSection("aboutme")}
+            className={isActive("aboutme")}
+          >
+            About Me
           </li>
         </ul>
         <div className="flex-1">
-          {educationData && <Education />}
-          {skillsData && <Skills />}
-          {experienceData && <Experience />}
-          {aboutmeData && <Aboutme />}
+          {activeSection === "education" && <Education />}
+          {activeSection === "skills" && <Skills />}
+          {activeSection === "experience" && <Experience />}
+          {activeSection === "aboutme" && <Aboutme />}
         </div>
       </div>
     </section>
