@@ -7,9 +7,12 @@ function Aboutme() {
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl text-[#85DFE7] font-bold">About Me</h1>
         <p className="text-base leading-relaxed">
-          I’m a motivated and detail-oriented individual with a passion for
-          frontend development. I enjoy learning new technologies and building
-          clean, responsive web applications.
+          I am a hardworking and detail-oriented person who enjoys creating
+          websites using HTML, Tailwind CSS, and React. I like building simple,
+          clean, and responsive designs that work well on all devices. I always
+          try to write clean code and follow good practices. I am willing to
+          learn new tools and improve my skills every day. I can work well alone
+          or with a team, and I enjoy solving problems through web development.
         </p>
       </div>
 
