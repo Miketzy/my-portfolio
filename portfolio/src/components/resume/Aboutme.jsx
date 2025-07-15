@@ -14,7 +14,7 @@ function Aboutme() {
       </div>
 
       {/* Bottom Section: Personal Info */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 text-base text-white">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 text-base text-white">
         <div>
           <span className="font-semibold text-[#85DFE7]">Name:</span> Michael
           John G. Margate
