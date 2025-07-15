@@ -2,7 +2,7 @@ import React from "react";
 
 function Aboutme() {
   return (
-    <div className="flex flex-col gap-10 w-full lg:w-[500px]">
+    <div className="flex flex-col gap-10 w-full lg:w-[800px]">
       {/* Top Section: About text */}
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl text-[#85DFE7] font-bold">About Me</h1>
