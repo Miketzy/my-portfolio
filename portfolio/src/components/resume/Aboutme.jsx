@@ -20,6 +20,17 @@ function Aboutme() {
           John G. Margate
         </div>
         <div>
+          <span className="font-semibold text-[#85DFE7]">Age:</span> 23
+        </div>
+        <div>
+          <span className="font-semibold text-[#85DFE7]">Phone:</span> +63
+          9658209303
+        </div>
+        <div>
+          <span className="font-semibold text-[#85DFE7]">Address:</span> Davao
+          City, Philippines
+        </div>
+        <div>
           <span className="font-semibold text-[#85DFE7]">Nationality:</span>{" "}
           Filipino
         </div>
@@ -27,13 +38,10 @@ function Aboutme() {
           <span className="font-semibold text-[#85DFE7]">Freelance:</span>{" "}
           Available
         </div>
-        <div>
-          <span className="font-semibold text-[#85DFE7]">Phone:</span> +63 912
-          345 6789
-        </div>
+
         <div>
           <span className="font-semibold text-[#85DFE7]">Email:</span>{" "}
-          michael@example.com
+          michaelmargate2@gmail.com.com
         </div>
       </div>
     </div>
