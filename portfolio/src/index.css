@@ -8,7 +8,7 @@
      @apply w-12 h-12 bg-gray-900 text-xl inline-flex items-center justify-center rounded-md shadow-[10px_10px_20px_rgba(0,0,0,0.5),_-10px_-10px_20px_rgba(255,255,255,0.05)] transition-all cursor-pointer duration-300  hover:translate-y-1 hover:text-[#85DFE7];
   }
     .resumeLi{
-    @apply w-[300px] h-15 bg-gray-900 text-lg text-white hover:text-gray-900 
+    @apply w-[350px] h-15 bg-gray-900 text-lg text-white hover:text-gray-900 
          flex justify-center items-center text-center 
          cursor-pointer hover:bg-[#85DFE7] 
           duration-300  border-[1px] rounded-lg;
