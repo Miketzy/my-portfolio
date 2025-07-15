@@ -14,21 +14,21 @@ function Aboutme() {
       </div>
 
       {/* Bottom Section: Personal Info */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 text-base text-white">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 text-base text-white">
         <div>
           <span className="font-semibold text-[#85DFE7]">Name:</span> Michael
           John G. Margate
         </div>
         <div>
-          <span className="font-semibold text-[#85DFE7]">Age:</span> 23
+          <span className="font-semibold text-[#85DFE7]">Age:</span> 26
         </div>
         <div>
           <span className="font-semibold text-[#85DFE7]">Phone:</span> +63
           9658209303
         </div>
         <div>
-          <span className="font-semibold text-[#85DFE7]">Address:</span> Davao
-          City, Philippines
+          <span className="font-semibold text-[#85DFE7]">Address:</span> Purok
+          2, Jamboree, Nangan, Gov. Generoso, Davao Oriental, Philippines
         </div>
         <div>
           <span className="font-semibold text-[#85DFE7]">Nationality:</span>{" "}
