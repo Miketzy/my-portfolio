@@ -6,7 +6,7 @@ function Aboutme() {
       {/* Top Section: About text */}
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl text-[#85DFE7] font-bold">About Me</h1>
-        <p className="text-gray-300 leading-relaxed">
+        <p className="text-base leading-relaxed">
           I’m a motivated and detail-oriented individual with a passion for
           frontend development. I enjoy learning new technologies and building
           clean, responsive web applications.
@@ -14,7 +14,7 @@ function Aboutme() {
       </div>
 
       {/* Bottom Section: Personal Info */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-white">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-base text-white">
         <div>
           <span className="font-semibold text-[#85DFE7]">Name:</span> Michael
           John G. Margate
