@@ -46,7 +46,7 @@ function EducationCard({ title, school, year, des, images }) {
         <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-[60]">
           <div className="relative">
             <button
-              className="absolute top-2 right-2 text-white text-3xl font-bold z-10"
+              className="absolute top-2 right-2 text-[#85DFE7] text-3xl font-bold z-10"
               onClick={() => setPreviewImage(null)}
             >
               &times;
