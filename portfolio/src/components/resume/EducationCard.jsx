@@ -10,13 +10,9 @@ function EducationCard({ title, school, year, des, images }) {
         className="bg-[#1f2937] p-5 rounded-lg shadow-md text-white cursor-pointer hover:bg-[#374151] transition"
         onClick={() => setIsOpen(true)}
       >
-        <h3 className="text-md text-gray-400">2025</h3>
-        <h2 className="text-xl font-semibold text-white">
-          Bachelor of Science in Information Technology
-        </h2>
-        <ul className="text-sm text-gray-300 list-disc ml-5 mt-2">
-          <li>Graduated from Davao Oriental State University</li>
-        </ul>
+        <h3 className="text-md text-gray-400">{year}</h3>
+        <h2 className="text-xl font-semibold text-white">{title}</h2>
+        <div className="text-sm text-gray-300 mt-2">{des}</div>
       </div>
 
       {/* Modal */}
@@ -30,7 +26,7 @@ function EducationCard({ title, school, year, des, images }) {
               &times;
             </button>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {images.map((src, index) => (
+              {images?.map((src, index) => (
                 <img
                   key={index}
                   src={src}
