@@ -25,6 +25,16 @@ function Education({ title, des, icon }) {
           title="Bachelor of Science in Information Technology"
           des="Graduated from Davao Oriental State University with a strong foundation in software and web development. I led the development of our capstone project, a full-stack web application focused on species management and admin approval systems using React.js and Tailwind CSS."
         />
+        <EducationCard
+          year="2025"
+          title="Bachelor of Science in Information Technology"
+          des="Graduated from Davao Oriental State University with a strong foundation in software and web development. I led the development of our capstone project, a full-stack web application focused on species management and admin approval systems using React.js and Tailwind CSS."
+        />
+        <EducationCard
+          year="2025"
+          title="Bachelor of Science in Information Technology"
+          des="Graduated from Davao Oriental State University with a strong foundation in software and web development. I led the development of our capstone project, a full-stack web application focused on species management and admin approval systems using React.js and Tailwind CSS."
+        />
       </div>
     </div>
   );
