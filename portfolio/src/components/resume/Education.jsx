@@ -1,5 +1,6 @@
 import React from "react";
 import EducationCard from "./EducationCard";
+import { projectOne } from "../../assets";
 
 function Education() {
   return (
@@ -30,19 +31,7 @@ function Education() {
               </ul>
             </>
           }
-          images={["/certificates/diploma.png", "/certificates/transcript.png"]}
-        />
-
-        <EducationCard
-          year="2025"
-          title="Bachelor of Science in Information Technology"
-          des={
-            <>
-              <ul className="list-disc list-inside text-sm">
-                <li>Graduated from Davao Oriental State University</li>
-              </ul>
-            </>
-          }
+          images={projectOne}
         />
         <EducationCard
           year="2025"
@@ -55,6 +44,18 @@ function Education() {
             </>
           }
         />
+        <EducationCard
+          year="2025"
+          title="Bachelor of Science in Information Technology"
+          des={
+            <>
+              <ul className="list-disc list-inside text-sm">
+                <li>Graduated from Davao Oriental State University</li>
+              </ul>
+            </>
+          }
+        />
+        images={projectOne}
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { projectOne } from "../../assets";
+
 function EducationCard({ title, school, year, des, images }) {
   const [isOpen, setIsOpen] = useState(false);
 
