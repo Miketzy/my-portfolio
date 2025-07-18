@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 function EducationCard({ title, school, year, des, images }) {
   const [isOpen, setIsOpen] = useState(false);
+  const [previewImage, setPreviewImage] = useState(null); // for full-view image
 
   return (
     <>
@@ -31,10 +32,30 @@ function EducationCard({ title, school, year, des, images }) {
                   key={index}
                   src={src}
                   alt={`Certificate ${index + 1}`}
-                  className="w-full h-auto rounded shadow"
+                  className="w-full h-auto rounded shadow cursor-pointer hover:opacity-90"
+                  onClick={() => setPreviewImage(src)} // set full-view image
                 />
               ))}
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* Full Image Preview Modal */}
+      {previewImage && (
+        <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-[60]">
+          <div className="relative">
+            <button
+              className="absolute top-2 right-2 text-white text-3xl font-bold z-10"
+              onClick={() => setPreviewImage(null)}
+            >
+              &times;
+            </button>
+            <img
+              src={previewImage}
+              alt="Preview"
+              className="max-w-full max-h-[90vh] rounded-lg shadow-lg"
+            />
           </div>
         </div>
       )}
