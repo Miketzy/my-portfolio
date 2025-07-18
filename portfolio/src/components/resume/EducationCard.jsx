@@ -1,20 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 
-function EducationCard({ year, title, des }) {
+function EducationCard({ title, school, year, description }) {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="w-full px-6 md:px-12 py-10 rounded-lg bg-gradient-to-r from-gray-800 to-gray-900 shadow-[10px_10px_20px_rgba(0,0,0,0.5),_-10px_-10px_20px_rgba(255,255,255,0.05)] flex items-center hover:bg-gradient-to-b hover:from-gray-700 hover:to-gray-800 transition-colors duration-300 group overflow-hidden min-h-[180px]">
-      <div className="w-full">
-        <div className="flex flex-col gap-4 transition-transform duration-500 ease-in-out">
-          <h2 className="text-xl font-semibold text-white">{year}</h2>
-          <h2 className="text-xl font-semibold text-white leading-snug tracking-wide">
-            {title}
-          </h2>
-          <p className="text-sm text-gray-300 leading-relaxed tracking-normal">
-            {des}
-          </p>
-        </div>
+    <>
+      {/* Card */}
+      <div
+        className="bg-[#1f2937] p-5 rounded-lg shadow-md text-white cursor-pointer hover:bg-[#374151] transition"
+        onClick={() => setIsOpen(true)}
+      >
+        <h2 className="text-lg font-semibold">{title}</h2>
+        <p className="text-sm">{school}</p>
+        <p className="text-sm">Year Graduated: {year}</p>
       </div>
-    </div>
+
+      {/* Modal */}
+      {isOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg p-6 w-[90%] max-w-md text-black relative">
+            <button
+              className="absolute top-2 right-2 text-gray-600 hover:text-red-500"
+              onClick={() => setIsOpen(false)}
+            >
+              &times;
+            </button>
+            <h2 className="text-xl font-bold mb-2">{title}</h2>
+            <p className="mb-2 text-gray-700">{school}</p>
+            <p className="mb-2 text-gray-700">Year Graduated: {year}</p>
+            <p className="text-gray-600">{description}</p>
+          </div>
+        </div>
+      )}
+    </>
   );
 }
 
