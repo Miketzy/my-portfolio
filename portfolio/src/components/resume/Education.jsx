@@ -54,8 +54,8 @@ function Education() {
               </ul>
             </>
           }
+          images={projectOne}
         />
-        images={projectOne}
       </div>
     </div>
   );
