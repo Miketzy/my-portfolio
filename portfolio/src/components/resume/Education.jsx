@@ -31,8 +31,9 @@ function Education() {
               </ul>
             </>
           }
-          images={projectOne}
+          images={[projectOne]} // ✅ wrap in array
         />
+
         <EducationCard
           year="2025"
           title="Bachelor of Science in Information Technology"
@@ -43,7 +44,9 @@ function Education() {
               </ul>
             </>
           }
+          images={[projectOne]} // ✅ wrap in array
         />
+
         <EducationCard
           year="2025"
           title="Bachelor of Science in Information Technology"
@@ -54,7 +57,7 @@ function Education() {
               </ul>
             </>
           }
-          images={projectOne}
+          images={[projectOne]} // ✅ wrap in array
         />
       </div>
     </div>
