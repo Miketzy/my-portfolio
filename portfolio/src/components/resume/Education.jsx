@@ -1,7 +1,7 @@
 import React from "react";
 import EducationCard from "./EducationCard";
 
-function Education({ title, des, icon }) {
+function Education() {
   return (
     <div className="flex flex-col gap-10 w-full lg:w-[600px]">
       {/* Top Section: About text */}
