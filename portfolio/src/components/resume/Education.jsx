@@ -30,6 +30,7 @@ function Education() {
               </ul>
             </>
           }
+          images={["/certificates/diploma.png", "/certificates/transcript.png"]}
         />
 
         <EducationCard
