@@ -1,10 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import EducationModal from "./EducationModal";
 import EducationPreview from "./EducationPreview";
 
 function EducationCard({ title, school, year, des, images }) {
   const [isOpen, setIsOpen] = useState(false);
   const [previewImage, setPreviewImage] = useState(null); // for full-view image
+
+  // Disable scroll when modal or preview is open
+  useEffect(() => {
+    if (isOpen || previewImage) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    // Cleanup on unmount
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [isOpen, previewImage]);
 
   return (
     <>
