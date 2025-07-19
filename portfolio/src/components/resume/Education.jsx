@@ -20,7 +20,7 @@ function Education() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-5">
+      <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-20">
         <EducationCard
           year="2025"
           title="Bachelor of Science in Information Technology"
