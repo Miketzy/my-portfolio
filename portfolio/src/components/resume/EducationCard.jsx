@@ -21,7 +21,7 @@ function EducationCard({ title, school, year, des, images }) {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-gray-900 rounded-lg p-6 w-[90%] max-w-md text-black relative">
             <button
-              className="absolute top-2 right-2 text-gray-600 hover:text-red-500"
+              className="absolute top-2 right-2 text-[#85DFE7] hover:text-red-500"
               onClick={() => setIsOpen(false)}
             >
               &times;
@@ -46,7 +46,7 @@ function EducationCard({ title, school, year, des, images }) {
         <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-[60]">
           <div className="relative">
             <button
-              className="absolute top-2 right-2 text-[#85DFE7] text-3xl font-bold z-10"
+              className="absolute top-2 right-2 text-[#85DFE7] text-3xl font-bold z-10 cursor-pointer"
               onClick={() => setPreviewImage(null)}
             >
               &times;
