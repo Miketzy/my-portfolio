@@ -19,7 +19,7 @@ function EducationCard({ title, school, year, des, images }) {
       {/* Modal */}
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-lg p-6 w-[90%] max-w-md text-black relative">
+          <div className="bg-gray-900 rounded-lg p-6 w-[90%] max-w-md text-black relative">
             <button
               className="absolute top-2 right-2 text-gray-600 hover:text-red-500"
               onClick={() => setIsOpen(false)}
