@@ -22,7 +22,7 @@ function Resume() {
 
       <div className="flex flex-col lg:flex-row gap-10 ">
         {/* Left Section */}
-        <div className="w-full lg:w-[350px] flex flex-col gap-4">
+        <div className="w-full lg:w-[350px] flex flex-col gap-4 justify-center">
           <h1 className="text-4xl text-[#85DFE7] font-bold">Why hire me?</h1>
 
           <p className="text-base text-gray-300 mb-6 leading-relaxed text-white">
@@ -59,7 +59,7 @@ function Resume() {
           <a
             href="/my-resume.pdf"
             download="Michael_Margate_Resume.pdf"
-            className="mt-6 inline-block px-6 py-2 bg-[#85DFE7] w-[300px] lg:w-[350px] text-black font-semibold rounded-md hover:bg-[#6acfd7] transition-all text-center"
+            className="mt-6 inline-block px-6 py-2 bg-[#85DFE7] w-[300px] lg:w-[350px] text-black font-semibold rounded-md hover:bg-[#6acfd7] transition-all text-center justify-center"
           >
             Download My Resume (PDF)
           </a>
