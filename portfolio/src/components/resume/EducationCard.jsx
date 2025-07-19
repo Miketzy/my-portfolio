@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import EducationModal from "./EducationModal";
+import EducationPreview from "./EducationPreview";
 
 function EducationCard({ title, school, year, des, images }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +20,7 @@ function EducationCard({ title, school, year, des, images }) {
 
       {/* Modal */}
       {isOpen && (
-        <ImageModal
+        <EducationModal
           images={images}
           onClose={() => setIsOpen(false)}
           onPreview={(src) => setPreviewImage(src)}
@@ -27,7 +29,7 @@ function EducationCard({ title, school, year, des, images }) {
 
       {/* Full Image Preview Modal */}
       {previewImage && (
-        <ImagePreviewModal
+        <EducationPreview
           src={previewImage}
           onClose={() => setPreviewImage(null)}
         />
