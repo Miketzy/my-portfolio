@@ -59,7 +59,7 @@ function Resume() {
           <a
             href="/my-resume.pdf"
             download="Michael_Margate_Resume.pdf"
-            className="mt-6 inline-block px-6 py-2 bg-[#85DFE7] text-black font-semibold rounded-md hover:bg-[#6acfd7] transition-all text-center"
+            className="mt-6 inline-block px-6 py-2 bg-[#85DFE7] w-[300px] text-black font-semibold rounded-md hover:bg-[#6acfd7] transition-all text-center"
           >
             Download My Resume (PDF)
           </a>
