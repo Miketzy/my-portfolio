@@ -56,6 +56,13 @@ function Resume() {
               About Me
             </li>
           </ul>
+          <a
+            href="/path-to-your-resume.pdf"
+            download
+            className="mt-6 inline-block px-6 py-2 bg-[#85DFE7] text-black font-semibold rounded-md hover:bg-[#6acfd7] transition-all text-center"
+          >
+            Download My Resume
+          </a>
         </div>
 
         {/* Right Section */}
