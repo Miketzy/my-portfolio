@@ -20,7 +20,7 @@ function Resume() {
         <Title title="No Experience" des="My Resume" />
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-10 ">
+      <div className="flex flex-col lg:flex-row gap-10 bg-gray-100 ">
         {/* Left Section */}
         <div className="w-full lg:w-[350px] flex flex-col gap-4 justify-center items-center">
           <h1 className="text-4xl text-[#85DFE7] font-bold">Why hire me?</h1>
