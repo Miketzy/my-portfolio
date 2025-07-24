@@ -6,7 +6,7 @@ function Aboutme() {
       {/* Top Section: About text */}
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl text-[#85DFE7] font-bold">About Me</h1>
-        <p className="text-base leading-relaxed">
+        <p className="text-base leading-relaxed mb-6">
           I am a hardworking and detail-oriented person who enjoys creating
           websites using HTML, Tailwind CSS, and React. I like building simple,
           clean, and responsive designs that work well on all devices. I always
