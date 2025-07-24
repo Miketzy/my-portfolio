@@ -4,7 +4,7 @@ import { projectOne } from "../../assets";
 
 function Education() {
   return (
-    <div className="flex  gap-5 flex-col  w-full lg:w-[700px] ">
+    <div className="flex flex-col  w-full lg:w-[700px] ">
       {/* Top Section: About text */}
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl text-[#85DFE7] font-bold">My Education</h1>
