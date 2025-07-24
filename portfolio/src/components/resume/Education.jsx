@@ -8,7 +8,7 @@ function Education() {
       {/* Top Section: About text */}
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl text-[#85DFE7] font-bold">My Education</h1>
-        <p className="text-base leading-relaxed text-white">
+        <p className="text-base leading-relaxed text-white mb-6">
           I am a fresh graduate with a Bachelor of Science in Information
           Technology. During my studies, I gained hands-on experience in
           frontend development using React.js and Tailwind CSS. For our capstone
@@ -20,7 +20,7 @@ function Education() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-5 mb-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-5 ">
         <EducationCard
           year="2025"
           title="Bachelor of Science in Information Technology"
