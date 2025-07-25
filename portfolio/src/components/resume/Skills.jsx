@@ -15,7 +15,7 @@ function Skills() {
         </p>
       </div>
 
-      <div className="grid grid-rows-6 grid-flow-col gap-4 sm:grid-rows-none sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
         <SkillsCard images={projectOne} />
         <SkillsCard images={projectOne} />
         <SkillsCard images={projectOne} />
