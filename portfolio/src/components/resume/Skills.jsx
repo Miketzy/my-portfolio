@@ -1,4 +1,6 @@
 import React from "react";
+import SkillsCard from "./SkillsCard";
+import { projectOne } from "../../assets";
 
 function Skills() {
   return (
@@ -11,6 +13,21 @@ function Skills() {
           eaque mollitia ut earum quibusdam, tempore, aliquid ipsam perferendis
           aut nisi rerum laboriosam!
         </p>
+      </div>
+
+      <div className="grid md:grid-cols-2 lg:grid-cols 6">
+        <SkillsCard images={[projectOne]} />
+        <SkillsCard images={[projectOne]} />
+        <SkillsCard images={[projectOne]} />
+        <SkillsCard images={[projectOne]} />
+        <SkillsCard images={[projectOne]} />
+        <SkillsCard images={[projectOne]} />
+        <SkillsCard images={[projectOne]} />
+        <SkillsCard images={[projectOne]} />
+        <SkillsCard images={[projectOne]} />
+        <SkillsCard images={[projectOne]} />
+        <SkillsCard images={[projectOne]} />
+        <SkillsCard images={[projectOne]} />
       </div>
     </div>
   );
