@@ -15,19 +15,19 @@ function Skills() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols 6">
-        <SkillsCard images={[projectOne]} />
-        <SkillsCard images={[projectOne]} />
-        <SkillsCard images={[projectOne]} />
-        <SkillsCard images={[projectOne]} />
-        <SkillsCard images={[projectOne]} />
-        <SkillsCard images={[projectOne]} />
-        <SkillsCard images={[projectOne]} />
-        <SkillsCard images={[projectOne]} />
-        <SkillsCard images={[projectOne]} />
-        <SkillsCard images={[projectOne]} />
-        <SkillsCard images={[projectOne]} />
-        <SkillsCard images={[projectOne]} />
+      <div className="grid grid-rows-6 grid-flow-col gap-4 sm:grid-rows-none sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+        <SkillsCard images={projectOne} />
+        <SkillsCard images={projectOne} />
+        <SkillsCard images={projectOne} />
+        <SkillsCard images={projectOne} />
+        <SkillsCard images={projectOne} />
+        <SkillsCard images={projectOne} />
+        <SkillsCard images={projectOne} />
+        <SkillsCard images={projectOne} />
+        <SkillsCard images={projectOne} />
+        <SkillsCard images={projectOne} />
+        <SkillsCard images={projectOne} />
+        <SkillsCard images={projectOne} />
       </div>
     </div>
   );
