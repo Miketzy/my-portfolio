@@ -1,6 +1,7 @@
 import React from "react";
 import SkillsCard from "./SkillsCard";
-import { projectOne } from "../../assets";
+import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
+import { SiTailwindcss, SiMicrosoftexcel } from "react-icons/si";
 
 function Skills() {
   return (
@@ -16,18 +17,11 @@ function Skills() {
       </div>
 
       <div className="grid grid-cols-5 md:grid-cols-8 lg:grid-cols-10 gap-4 ">
-        <SkillsCard images={projectOne} />
-        <SkillsCard images={projectOne} />
-        <SkillsCard images={projectOne} />
-        <SkillsCard images={projectOne} />
-        <SkillsCard images={projectOne} />
-        <SkillsCard images={projectOne} />
-        <SkillsCard images={projectOne} />
-        <SkillsCard images={projectOne} />
-        <SkillsCard images={projectOne} />
-        <SkillsCard images={projectOne} />
-        <SkillsCard images={projectOne} />
-        <SkillsCard images={projectOne} />
+        <SkillsCard Icon={FaHtml5} />
+        <SkillsCard Icon={FaCss3Alt} />
+        <SkillsCard Icon={FaReact} />
+        <SkillsCard Icon={SiTailwindcss} />
+        <SkillsCard Icon={SiMicrosoftexcel} />
       </div>
     </div>
   );
