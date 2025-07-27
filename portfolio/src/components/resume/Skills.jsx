@@ -17,7 +17,7 @@ function Skills() {
 
       <div className="grid grid-cols-5 md:grid-cols-8 lg:grid-cols-10 gap-4 ">
         <SkillsCard images={html} />
-        <SkillsCard images={css} />
+        <SkillsCard src="https://img.icons8.com/color/48/css3.png" alt="CSS3" />
         <SkillsCard images={reactjs} />
         <SkillsCard images={tailwindcss} />
       </div>
