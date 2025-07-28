@@ -69,6 +69,7 @@ function Navbar() {
               <Link
                 to={link}
                 spy={true}
+                hashSpy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
