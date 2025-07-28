@@ -1,4 +1,4 @@
-import logo from "./images/mike4.png";
+import logo from "./images/mike.png";
 import image from "./images/banner.png";
 import projectOne from "./images/Paper Instagram Logo - Margaret Scrinkl.jfif";
 import css from "./images/icons8-css-logo-480.png";
