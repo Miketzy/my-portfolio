@@ -1,4 +1,5 @@
 import React from "react";
+import ExperieceCard from "./ExperieceCard";
 
 function Experience() {
   return (
@@ -11,6 +12,40 @@ function Experience() {
           eaque mollitia ut earum quibusdam, tempore, aliquid ipsam perferendis
           aut nisi rerum laboriosam!
         </p>
+      </div>
+
+      <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-5 ">
+        <ExperieceCard
+          title="Frontend Development"
+          des={
+            <>
+              <ul className="list-disc list-inside text-sm">
+                <li>Graduated from Davao Oriental State University</li>
+              </ul>
+            </>
+          }
+        />
+        <ExperieceCard
+          title="Wordpress"
+          des={
+            <>
+              <ul className="list-disc list-inside text-sm">
+                <li>Graduated from Davao Oriental State University</li>
+              </ul>
+            </>
+          }
+        />
+        <ExperieceCard
+          title="data Entry Encoder"
+          des={
+            <>
+              <ul className="list-disc list-inside text-sm">
+                <li>Graduated from Davao Oriental State University</li>
+              </ul>
+            </>
+          }
+        />
+        <ExperieceCard />
       </div>
     </div>
   );
