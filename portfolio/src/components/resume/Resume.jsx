@@ -4,6 +4,7 @@ import Education from "./Education";
 import Skills from "./Skills";
 import Experience from "./Experience";
 import Aboutme from "./Aboutme";
+import { pdf } from "../../assets";
 
 function Resume() {
   const [activeSection, setActiveSection] = useState("education");
@@ -57,8 +58,8 @@ function Resume() {
             </li>
           </ul>
           <a
-            href="/my-resume.pdf"
-            download="Michael_Margate_Resume.pdf"
+            href={pdf}
+            download="Michael_Margate_Professional_CV_Resume.pdf"
             className="mt-6 inline-block px-6 py-2 bg-[#85DFE7] w-[300px] lg:w-[350px] text-black font-semibold rounded-md hover:bg-[#6acfd7] transition-all text-center justify-center items-center"
           >
             Download My Resume (PDF)
