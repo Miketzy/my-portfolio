@@ -1,5 +1,5 @@
 import React from "react";
-
+import Title from "../layouts/Title";
 function Testimonial() {
   return (
     <section
