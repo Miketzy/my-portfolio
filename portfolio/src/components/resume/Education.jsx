@@ -9,14 +9,10 @@ function Education() {
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl text-[#85DFE7] font-bold">My Education</h1>
         <p className="text-base leading-relaxed text-white mb-6">
-          I am a fresh graduate with a Bachelor of Science in Information
-          Technology. During my studies, I gained hands-on experience in
-          frontend development using React.js and Tailwind CSS. For our capstone
-          project, I took the lead in building a complete web-based system from
-          scratch, applying modern web development practices and responsive
-          design principles. This project strengthened my technical skills and
-          taught me how to work effectively both independently and as part of a
-          team.
+          I recently graduated with a degree in Information Technology. I
+          learned how to build websites and worked on a capstone project with my
+          team. I’m still learning, but I always try my best and want to improve
+          more.
         </p>
       </div>
 
