@@ -19,6 +19,8 @@ function Projects() {
           title="BioExplorer"
           des="BioExplorer: A web-based repository of Davao Oriental species. It helps people discover and learn about local animals through images and simple information to support awareness and education."
           src={bioexplorer}
+          gethublink="https://github.com/Miketzy/capstone2-client.git"
+          websitelink="https://davao-oriental-bioexplorer-client.vercel.app"
         />
         <ProjectCard
           title="Title"
