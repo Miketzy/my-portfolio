@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../layouts/Title";
 import ProjectCard from "./ProjectCard";
-import { projectOne } from "../../assets";
+import { bioexplorer, projectOne } from "../../assets";
 function Projects() {
   return (
     <section
@@ -18,7 +18,7 @@ function Projects() {
         <ProjectCard
           title="BioExplorer"
           des="BioExplorer: A web-based repository of Davao Oriental species. It helps people discover and learn about local animals through images and simple information to support awareness and education."
-          src={projectOne}
+          src={bioexplorer}
         />
         <ProjectCard
           title="Title"
