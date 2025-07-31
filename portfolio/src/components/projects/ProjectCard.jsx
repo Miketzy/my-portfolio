@@ -24,7 +24,10 @@ function ProjectCard({ title, des, src }) {
               </span>
               <span
                 onClick={() =>
-                  window.open("https://mjportfolio-five.vercel.app", "_blank")
+                  window.open(
+                    "https://davao-oriental-bioexplorer-client.vercel.app",
+                    "_blank"
+                  )
                 }
                 className="text-lg w-10 h-10 rounded-full bg-gray-900 inline-flex justify-center items-center hover:text-[#85DFE7] duration-300 cursor-pointer"
               >
