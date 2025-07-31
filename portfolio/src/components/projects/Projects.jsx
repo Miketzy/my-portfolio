@@ -16,8 +16,8 @@ function Projects() {
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
         <ProjectCard
-          title="BioExplorer: Animal Species of Davao Oriental."
-          des="This website is made to help people discover and learn about the different animal species found in Davao Oriental. It provides helpful information and images of local wildlife in one easy-to-use place. BioExplorer supports awareness and education about the unique animals in the region."
+          title="BioExplorer"
+          des="BioExplorer: A web-based repository of Davao Oriental species. It helps people discover and learn about local animals through images and simple information to support awareness and education."
           src={projectOne}
         />
         <ProjectCard
