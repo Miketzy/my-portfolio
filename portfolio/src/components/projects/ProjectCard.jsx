@@ -19,7 +19,15 @@ function ProjectCard({ title, des, src }) {
               {title}
             </h3>
             <div className="flex gap-2">
-              <span className="text-lg w-10 h-10 rounded-full bg-gray-900 inline-flex justify-center items-center hover:text-[#85DFE7] duration-300 cursor-pointer">
+              <span
+                onClick={() =>
+                  window.open(
+                    "https://github.com/Miketzy/capstone2-client.git",
+                    "_blank"
+                  )
+                }
+                className="text-lg w-10 h-10 rounded-full bg-gray-900 inline-flex justify-center items-center hover:text-[#85DFE7] duration-300 cursor-pointer"
+              >
                 <BsGithub />
               </span>
               <span
