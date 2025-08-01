@@ -18,7 +18,7 @@ function Experience() {
       <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-5 ">
         <ExperieceCard
           title="Full Stack Developer"
-          tools="ReactJS, Tailwind CSS, Express.js, PostgreSQL"
+          tools="ReactJS, Tailwind CSS, Express.js, PostgreSQL, Vercel, Render"
           des={
             <>
               <ul className="list-disc list-inside text-sm">
