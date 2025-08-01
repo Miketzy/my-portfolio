@@ -13,41 +13,7 @@ function Testimonial() {
       </div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-        <TestimonilasCard
-          image={projectOne}
-          name="Michael John G. Margate"
-          position="Manager"
-          des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
-        />
-        <TestimonilasCard
-          image={projectOne}
-          name="Michael John G. Margate"
-          des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
-        />
-        <TestimonilasCard
-          image={projectOne}
-          name="Michael John G. Margate"
-          position="Manager"
-          des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
-        />
-        <TestimonilasCard
-          image={projectOne}
-          name="Michael John G. Margate"
-          position="Manager"
-          des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
-        />
-        <TestimonilasCard
-          image={projectOne}
-          name="Michael John G. Margate"
-          position="Manager"
-          des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
-        />
-        <TestimonilasCard
-          image={projectOne}
-          name="Michael John G. Margate"
-          position="Manager"
-          des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
-        />
+        <TestimonilasCard image="" name="" position="" des="" />
       </div>
     </section>
   );
