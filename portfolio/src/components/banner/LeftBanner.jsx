@@ -85,7 +85,7 @@ function LeftBanner() {
           </span>
           <span className="bannerIcon">
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/michael-john-g-margate-203893371/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full h-full flex items-center justify-center"
