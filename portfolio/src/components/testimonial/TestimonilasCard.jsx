@@ -8,7 +8,7 @@ function TestimonilasCard({ image, name, des, position }) {
         <img
           className="w-24 h-24 object-cover rounded-full"
           src={image}
-          alt="Profile"
+          alt=""
         />
       </div>
 
