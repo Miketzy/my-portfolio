@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../layouts/Title";
 import ProjectCard from "./ProjectCard";
-import { bioexplorer, projectOne } from "../../assets";
+import { bioexplorer } from "../../assets";
 function Projects() {
   return (
     <section
@@ -21,31 +21,6 @@ function Projects() {
           src={bioexplorer}
           gethublink="https://github.com/Miketzy/capstone2-client.git"
           websitelink="https://davao-oriental-bioexplorer-client.vercel.app"
-        />
-        <ProjectCard
-          title="Title"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda ratione cumque iusto ducimus, magni optio tempore harum reiciendis natus quis eum laudantium consectetur aperiam sit doloremque repellendus quam exercitationem?"
-          src={projectOne}
-        />
-        <ProjectCard
-          title="Title"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda ratione cumque iusto ducimus, magni optio tempore harum reiciendis natus quis eum laudantium consectetur aperiam sit doloremque repellendus quam exercitationem?"
-          src={projectOne}
-        />
-        <ProjectCard
-          title="Title"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda ratione cumque iusto ducimus, magni optio tempore harum reiciendis natus quis eum laudantium consectetur aperiam sit doloremque repellendus quam exercitationem?"
-          src={projectOne}
-        />
-        <ProjectCard
-          title="Title"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda ratione cumque iusto ducimus, magni optio tempore harum reiciendis natus quis eum laudantium consectetur aperiam sit doloremque repellendus quam exercitationem?"
-          src={projectOne}
-        />
-        <ProjectCard
-          title="Title"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda ratione cumque iusto ducimus, magni optio tempore harum reiciendis natus quis eum laudantium consectetur aperiam sit doloremque repellendus quam exercitationem?"
-          src={projectOne}
         />
       </div>
     </section>
