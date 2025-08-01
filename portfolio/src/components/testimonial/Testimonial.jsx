@@ -19,27 +19,27 @@ function Testimonial() {
           des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
         />
         <TestimonilasCard
-          image=""
+          image={projectOne}
           name="Michael John G. Margate"
           des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
         />
         <TestimonilasCard
-          image=""
+          image={projectOne}
           name="Michael John G. Margate"
           des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
         />
         <TestimonilasCard
-          image=""
+          image={projectOne}
           name="Michael John G. Margate"
           des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
         />
         <TestimonilasCard
-          image=""
+          image={projectOne}
           name="Michael John G. Margate"
           des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
         />
         <TestimonilasCard
-          image=""
+          image={projectOne}
           name="Michael John G. Margate"
           des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
         />
