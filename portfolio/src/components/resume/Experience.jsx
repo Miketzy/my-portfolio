@@ -17,21 +17,23 @@ function Experience() {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-5 ">
         <ExperieceCard
-          title="Frontend Development"
+          title="Full Stack Developer"
+          tools="Reactjs, Tailwindcss,Express.js,Postgresql"
           des={
             <>
               <ul className="list-disc list-inside text-sm">
-                <li>Graduated from Davao Oriental State University</li>
+                <li>Capstone Project</li>
               </ul>
             </>
           }
         />
         <ExperieceCard
-          title="Wordpress"
+          title="Frontend Development Intern"
+          tools="Wordpress"
           des={
             <>
               <ul className="list-disc list-inside text-sm">
-                <li>Graduated from Davao Oriental State University</li>
+                <li>Illumedia Outsourcing</li>
               </ul>
             </>
           }
