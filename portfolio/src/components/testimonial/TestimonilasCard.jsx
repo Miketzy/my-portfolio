@@ -17,9 +17,7 @@ function TestimonilasCard({ image, name, des }) {
           <h3 className="text-base uppercase text-[#85DFE7] font-normal">
             {name}
           </h3>
-          <p className="text-sm tracking-wide mt-3 hover:text-[#85DFE7] duration-300">
-            {des}
-          </p>
+          <p className="text-sm tracking-wide mt-3">{des}</p>
         </div>
       </div>
     </div>
