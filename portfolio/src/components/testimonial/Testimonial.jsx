@@ -1,5 +1,7 @@
 import React from "react";
 import Title from "../layouts/Title";
+import TestimonilasCard from "./TestimonilasCard";
+import { projectOne } from "../../assets";
 function Testimonial() {
   return (
     <section
@@ -8,6 +10,39 @@ function Testimonial() {
     >
       <div className="flex justify-center items-center text-center">
         <Title title="What Clients Say" des="Testimonials" />
+      </div>
+
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <TestimonilasCard
+          image={projectOne}
+          name="Michael John G. Margate"
+          des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
+        />
+        <TestimonilasCard
+          image=""
+          name="Michael John G. Margate"
+          des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
+        />
+        <TestimonilasCard
+          image=""
+          name="Michael John G. Margate"
+          des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
+        />
+        <TestimonilasCard
+          image=""
+          name="Michael John G. Margate"
+          des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
+        />
+        <TestimonilasCard
+          image=""
+          name="Michael John G. Margate"
+          des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
+        />
+        <TestimonilasCard
+          image=""
+          name="Michael John G. Margate"
+          des="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, est accusamus cum illo explicabo, voluptates cupiditate facere delectus veniam repellat laudantium vitae aliquam alias omnis dolor. Ab accusamus atque alias!"
+        />
       </div>
     </section>
   );
