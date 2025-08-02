@@ -15,19 +15,19 @@ function ContactSection() {
       <div className="flex flex-col px-8 py-6 bg-gradient-to-r from-gray-800 to-gray-900 shadow-[10px_10px_20px_rgba(0,0,0,0.5),_-10px_-10px_20px_rgba(255,255,255,0.05)] group rounded-lg text-white">
         <h2 className="text-xl font-semibold mb-4">Contact Info</h2>
 
-        <div className="flex items-center gap-3 mb-2 text-[#85DFE7]">
-          <FaMapMarkerAlt />
-          <span>123 Main Street, Davao Oriental</span>
+        <div className="flex items-center gap-3 mb-2">
+          <FaMapMarkerAlt className="text-[#85DFE7]" />
+          <span>Purok 2-A Jamboree Nangan, Gov. Generoso Davao Oriental </span>
         </div>
 
-        <div className="flex items-center gap-3 mb-2 text-[#85DFE7]">
-          <FaEnvelope />
-          <span>email@example.com</span>
+        <div className="flex items-center gap-3 mb-2">
+          <FaEnvelope className="text-[#85DFE7]" />
+          <span>michaelmargate2@gmail.com</span>
         </div>
 
-        <div className="flex items-center gap-3 mb-6 text-[#85DFE7]">
-          <FaPhone />
-          <span>+63 912 345 6789</span>
+        <div className="flex items-center gap-3 mb-6 ">
+          <FaPhone className="text-[#85DFE7]" />
+          <span>+63 965 820 9303</span>
         </div>
 
         <div className="flex gap-4 justify-start mt-2">
