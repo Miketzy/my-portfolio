@@ -10,7 +10,7 @@ import {
 
 function ContactSection() {
   return (
-    <div className="flex flex-col w-[30%] h-full gap-10">
+    <div className="flex flex-col w-[50%] h-full gap-10">
       {/* Contact Info with Social Media */}
       <div className="flex flex-col px-8 py-6 bg-gradient-to-r from-gray-800 to-gray-900 shadow-[10px_10px_20px_rgba(0,0,0,0.5),_-10px_-10px_20px_rgba(255,255,255,0.05)] group rounded-lg text-white">
         <h2 className="text-xl font-semibold mb-4">Contact Info</h2>
