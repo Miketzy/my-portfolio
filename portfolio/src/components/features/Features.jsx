@@ -42,11 +42,6 @@ function Features() {
           icon={<FaMobileAlt />}
         />
         <Card
-          title="Low but Steady Learner"
-          des="i learn step by step, and I keep practicing to get better at frontend development"
-          icon={<FaBookOpen />}
-        />
-        <Card
           title="Simple Projects"
           des="I make small websites using React and Tailwind CSS, including our capstone project, which I build myself."
           icon={<FaLaptopCode />}

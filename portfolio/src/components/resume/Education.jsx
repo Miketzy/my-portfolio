@@ -9,10 +9,11 @@ function Education() {
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl text-[#85DFE7] font-bold">My Education</h1>
         <p className="text-base leading-relaxed text-white mb-6">
-          I recently graduated with a degree in Information Technology. I
-          learned how to build websites and worked on a capstone project with my
-          team. I’m still learning, but I always try my best and want to improve
-          more.
+          My journey in Information Technology helped me discover my interest in
+          frontend development. I gained practical experience by collaborating
+          with my team on our capstone project, where we built a web-based
+          system. I'm passionate about learning and constantly improving my
+          skills through hands-on work and exploration.
         </p>
       </div>
 

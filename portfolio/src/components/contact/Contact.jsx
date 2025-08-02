@@ -1,5 +1,7 @@
 import React from "react";
 import Title from "../layouts/Title";
+import ContactForm from "./ContactForm";
+import ContactInfo from "./ContactInfo";
 
 function Contact() {
   return (
@@ -9,6 +11,11 @@ function Contact() {
     >
       <div className="flex justify-center items-center text-center">
         <Title title="Contact" des="Contact With Me" />
+      </div>
+
+      <div className="flex flex-col lg-flex-row">
+        <ContactForm />
+        <ContactInfo />
       </div>
     </section>
   );

@@ -7,11 +7,11 @@ function Experience() {
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl text-[#85DFE7] font-bold">My Experience</h1>
         <p className="text-base leading-relax text-white mb-6">
-          I gained experience in building a website during our capstone project,
-          where I worked with a team to create a real website. I also had an
-          internship where I used WordPress to update and manage content. These
-          experiences helped me understand how websites work, and I am still
-          learning to improve my skills.
+          I’ve gained hands-on experience in building websites through my
+          capstone project and internship, where I worked with tools like
+          WordPress, ReactJS, and Express.js. I'm also continuously looking for
+          new opportunities to grow my skills and gain real-world experience by
+          working on different types of projects.
         </p>
       </div>
 
