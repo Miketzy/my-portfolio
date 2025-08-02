@@ -41,7 +41,7 @@ function ContactForm() {
         </div>
       </div>
 
-      <div className="mb-4">
+      <div className="mb-6">
         <label className="block mb-1 text-sm">Your Message</label>
         <textarea
           className="w-full p-2 rounded bg-gray-700 text-white resize-none"
@@ -49,6 +49,13 @@ function ContactForm() {
           placeholder="Type your message here..."
         ></textarea>
       </div>
+
+      <button
+        type="submit"
+        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded transition-all duration-300"
+      >
+        Send Message
+      </button>
     </div>
   );
 }
