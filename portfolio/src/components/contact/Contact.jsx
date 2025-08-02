@@ -14,15 +14,9 @@ function Contact() {
       </div>
 
       <div className="flex flex-col lg:flex-row gap-10 h-[500px]">
-        {/* Left Side: ContactForm */}
-        <div className="w-full lg:w-2/3 h-full">
-          <ContactForm />
-        </div>
+        <ContactForm />
 
-        {/* Right Side: ContactInfo */}
-        <div className="w-full lg:w-1/3 h-full">
-          <ContactInfo />
-        </div>
+        <ContactInfo />
       </div>
     </section>
   );
