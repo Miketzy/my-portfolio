@@ -2,12 +2,18 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <div className="bg-red-500 w-[40%] px-12 py-10">
-      <h1>set 1</h1>
-      <h1>set 1</h1>
-      <h1>set 1</h1>
-      <h1>set 1</h1>
-      <h1>set 1</h1>
+    <div className="flex flex-col px-12 py-10">
+      <div className="flex flex-col lg:flex-row">
+        <input type="text" />
+        <input type="text" />
+      </div>
+      <div className="flex flex-col lg:flex-row">
+        <input type="text" />
+        <input type="text" />
+      </div>
+      <div className="">
+        <textarea name="" id=""></textarea>
+      </div>
     </div>
   );
 }
