@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "../layouts/Title";
 
 function Contact() {
   return (
