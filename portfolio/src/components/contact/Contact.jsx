@@ -13,10 +13,16 @@ function Contact() {
         <Title title="Contact" des="Contact With Me" />
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-10 h-96">
-        <ContactForm />
-        <ContactInfo />
-      </div>
+       <div className="flex flex-col lg:flex-row gap-10 h-[500px]">
+        {/* Left Side: ContactForm */}
+        <div className="w-full lg:w-2/3 h-full">
+          <ContactForm />
+        </div>
+
+        {/* Right Side: ContactInfo */}
+        <div className="w-full lg:w-1/3 h-full">
+          <ContactInfo />
+        </div>
     </section>
   );
 }
