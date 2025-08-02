@@ -13,7 +13,7 @@ function Contact() {
         <Title title="Contact" des="Contact With Me" />
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-10 ">
+      <div className="flex flex-col lg:flex-row gap-10 h-96">
         <ContactForm />
         <ContactInfo />
       </div>
