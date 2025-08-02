@@ -11,7 +11,7 @@ function ContactInfo() {
         <h1>set 1</h1>
         <h1>set 1</h1>
       </div>
-      <div className="bg-blue-600 px-10 py-12">
+      <div className="bg-blue-600 ">
         <h1>set 1</h1>
         <h1>set 1</h1>
         <h1>set 1</h1>
