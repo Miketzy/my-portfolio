@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactInfo() {
   return (
-    <div className="flex flex-col w-[40%] h-full gap-10">
+    <div className="flex flex-col w-[20%] h-full gap-10">
       {" "}
       {/* ← fixed height */}
       <div className="bg-blue-200 ">Set 1</div>
