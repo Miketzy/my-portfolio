@@ -46,7 +46,14 @@ function ContactSection() {
       <div className="flex flex-col justify-center items-center h-60 bg-gradient-to-r from-gray-800 to-gray-900 shadow-[10px_10px_20px_rgba(0,0,0,0.5),_-10px_-10px_20px_rgba(255,255,255,0.05)] group rounded-lg text-white">
         <h2 className="text-lg font-semibold mb-2">Our Location</h2>
         <div className="w-full h-full bg-gray-700 rounded-md flex items-center justify-center">
-          <span className="text-gray-300">Map Placeholder</span>
+          <a
+            href="https://maps.app.goo.gl/V6rMYKdi8ypDHdC5A"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#85DFE7] underline break-all text-center"
+          >
+            https://maps.app.goo.gl/V6rMYKdi8ypDHdC5A
+          </a>
         </div>
       </div>
     </div>
