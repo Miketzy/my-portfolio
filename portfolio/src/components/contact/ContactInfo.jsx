@@ -43,17 +43,17 @@ function ContactSection() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center h-60 bg-gradient-to-r from-gray-800 to-gray-900 shadow-[10px_10px_20px_rgba(0,0,0,0.5),_-10px_-10px_20px_rgba(255,255,255,0.05)] group rounded-lg text-white">
+      <div className="flex flex-col justify-center items-center h-[400px] bg-gradient-to-r from-gray-800 to-gray-900 shadow-[10px_10px_20px_rgba(0,0,0,0.5),_-10px_-10px_20px_rgba(255,255,255,0.05)] group rounded-lg text-white">
         <h2 className="text-lg font-semibold mb-2">Our Location</h2>
-        <div className="w-full h-full bg-gray-700 rounded-md flex items-center justify-center">
+        <div className="w-full h-full bg-gray-700 rounded-md overflow-hidden">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d293.0338594174817!2d126.121004674748!3d6.462697063378947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fa118eab6577c1%3A0xd565cc37ff5f8ac5!2sJAMBOREE%20GYM!5e0!3m2!1sen!2sph!4v1754208277181!5m2!1sen!2sph"
-            width="600"
-            height="450"
-            style="border:0;"
-            allowfullscreen=""
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
