@@ -47,13 +47,13 @@ function ContactSection() {
         <h2 className="text-lg font-semibold mb-2">Our Location</h2>
         <div className="w-full h-full bg-gray-700 rounded-md overflow-hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d293.0338594174817!2d126.121004674748!3d6.462697063378947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fa118eab6577c1%3A0xd565cc37ff5f8ac5!2sJAMBOREE%20GYM!5e0!3m2!1sen!2sph!4v1754208277181!5m2!1sen!2sph"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.2369995910574!2d126.11816687211015!3d6.461473470923259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fa118eab6577c1%3A0xd565cc37ff5f8ac5!2sJAMBOREE%20GYM!5e0!3m2!1sen!2sph!4v1754209531292!5m2!1sen!2sph"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
+            referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
