@@ -1,5 +1,13 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaXTwitter,
+  FaLinkedin,
+} from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
+
+import { logo } from "../../assets";
 
 function Footer() {
   return (
@@ -7,7 +15,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Logo / Name */}
         <div>
-          <h1 className="text-2xl font-bold">YourName</h1>
+          <img src={logo} alt="Logo" className="w-20 h-auto" />
           <p className="text-sm mt-2 text-gray-400">Frontend Developer</p>
         </div>
 
@@ -21,13 +29,23 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-white">
-                About
+              <a href="#features" className="hover:text-white">
+                Features
               </a>
             </li>
             <li>
               <a href="#projects" className="hover:text-white">
                 Projects
+              </a>
+            </li>
+            <li>
+              <a href="#resume" className="hover:text-white">
+                Resume
+              </a>
+            </li>
+            <li>
+              <a href="#testimonial" className="hover:text-white">
+                Testimonials
               </a>
             </li>
             <li>
@@ -43,26 +61,39 @@ function Footer() {
           <h2 className="text-lg font-semibold mb-2">Connect with me</h2>
           <div className="flex gap-4 text-gray-300 mt-2">
             <a
-              href="https://github.com/yourusername"
+              href="https://facebook.com/yourusername"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white"
             >
-              <FaGithub size={20} />
+              <FaFacebook size={20} />
+            </a>
+            <a href="mailto:your.email@gmail.com" className="hover:text-white">
+              <SiGmail size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://instagram.com/yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              <FaInstagram size={20} />
+            </a>
+            <a
+              href="https://x.com/yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              <FaXTwitter size={20} />
+            </a>
+            <a
+              href="https://linkedin.com/in/yourusername"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white"
             >
               <FaLinkedin size={20} />
-            </a>
-            <a
-              href="mailto:your.email@example.com"
-              className="hover:text-white"
-            >
-              <FaEnvelope size={20} />
             </a>
           </div>
         </div>
@@ -70,7 +101,8 @@ function Footer() {
 
       {/* Bottom text */}
       <div className="text-center text-gray-500 text-sm mt-10 border-t border-gray-700 pt-4">
-        © {new Date().getFullYear()} YourName. All rights reserved.
+        © {new Date().getFullYear()} Michael John G. Margate. All rights
+        reserved.
       </div>
     </footer>
   );
