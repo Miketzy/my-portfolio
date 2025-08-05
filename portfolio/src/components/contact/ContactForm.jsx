@@ -6,7 +6,7 @@ function ContactForm() {
   const [firstname, setFirstname] = useState("");
   const [lastname, setLastname] = useState("");
   const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
+  const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false); // idagdag ito sa taas
 
@@ -23,7 +23,7 @@ function ContactForm() {
       lastname: lastname,
       from_email: email,
       reply_to: email,
-      phone: phone,
+      subject: subject,
       message: message,
       to_name: "Michael John G. Margate",
       to_email: "michaelmargate2@gmail.com",
@@ -37,7 +37,7 @@ function ContactForm() {
         setFirstname("");
         setLastname("");
         setEmail("");
-        setPhone("");
+        setSubject("");
         setMessage("");
       })
       .catch((error) => {
@@ -92,14 +92,14 @@ function ContactForm() {
             />
           </div>
           <div className="w-full">
-            <label className="block mb-1 text-sm">Phone</label>
+            <label className="block mb-1 text-sm">Subject</label>
             <input
-              type="tel"
-              name="phone"
+              type="text"
+              name="subject"
               className="w-full p-2 rounded bg-gray-700 text-white"
-              placeholder="+63 ### ### ####"
+              placeholder="Subject"
               value={phone}
-              onChange={(e) => setPhone(e.target.value)}
+              onChange={(e) => setSubject(e.target.value)}
             />
           </div>
         </div>
@@ -118,10 +118,10 @@ function ContactForm() {
 
         <button
           type="submit"
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded transition-all duration-300"
+          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded transition-all duration-300 items-center"
           disabled={loading}
         >
-          {loading ? <FaSpinner className="animate-spin" /> : "Send Message"}
+          {loading ? <FaSpinner className="animate-spin " /> : "Send Message"}
         </button>
       </form>
     </>
