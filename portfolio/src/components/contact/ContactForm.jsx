@@ -20,10 +20,10 @@ function ContactForm() {
       firstname: firstname,
       lastname: lastname,
       from_email: email,
+      reply_to: email,
       phone: phone,
       message: message,
       to_name: "Michael John G. Margate",
-      to_email: "michaelmargate2@gmail.com",
     };
 
     emailjs
