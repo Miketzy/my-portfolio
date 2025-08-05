@@ -28,7 +28,7 @@ function ContactForm() {
           <input
             type="email"
             className="w-full p-2 rounded bg-gray-700 text-white"
-            placeholder="e.g. example@gmail.com"
+            placeholder="Enter your email"
           />
         </div>
         <div className="w-full">
@@ -36,7 +36,7 @@ function ContactForm() {
           <input
             type="tel"
             className="w-full p-2 rounded bg-gray-700 text-white"
-            placeholder="+63 912 345 6789"
+            placeholder="+63 ### ### ####"
           />
         </div>
       </div>
