@@ -12,8 +12,8 @@ import { logo } from "../../assets";
 function Footer() {
   return (
     <footer className="w-full bg-[#1f2937] text-white pt-20 pb-20 px-4">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-20">
-        <div>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="max-w-6xl mx-auto ">
           <img src={logo} alt="Logo" className="w-20 h-auto" />
           <p className="text-lg font-semibold mt-2 text-white">
             Michael John G. Margate
