@@ -13,10 +13,19 @@ function Footer() {
   return (
     <footer className="w-full bg-gray-900 text-white py-10 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-        {/* Logo / Name */}
+        {/* Logo / Name / Short Description */}
         <div>
           <img src={logo} alt="Logo" className="w-20 h-auto" />
-          <p className="text-sm mt-2 text-gray-400">Frontend Developer</p>
+          <p className="text-lg font-semibold mt-2 text-white">
+            Michael John G. Margate
+          </p>
+          <p className="text-sm text-gray-400">
+            Full Stack Developer <br /> | Frontend Developer
+          </p>
+          <p className="text-xs mt-1 text-gray-500 leading-relaxed">
+            Passionate about building modern and responsive web applications
+            using the latest technologies.
+          </p>
         </div>
 
         {/* Quick Links */}
@@ -61,18 +70,21 @@ function Footer() {
           <h2 className="text-lg font-semibold mb-2">Connect with me</h2>
           <div className="flex gap-4 text-gray-300 mt-2">
             <a
-              href="https://facebook.com/yourusername"
+              href="https://www.facebook.com/michael.john.garcia.margate"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white"
             >
               <FaFacebook size={20} />
             </a>
-            <a href="mailto:your.email@gmail.com" className="hover:text-white">
+            <a
+              href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+              className="hover:text-white"
+            >
               <SiGmail size={20} />
             </a>
             <a
-              href="https://instagram.com/yourusername"
+              href="https://www.instagram.com/reiji.margate/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white"
@@ -80,7 +92,7 @@ function Footer() {
               <FaInstagram size={20} />
             </a>
             <a
-              href="https://x.com/yourusername"
+              href="https://x.com/john_marga74179"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white"
@@ -88,7 +100,7 @@ function Footer() {
               <FaXTwitter size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/michael-john-g-margate-203893371/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white"
