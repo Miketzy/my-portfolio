@@ -121,7 +121,11 @@ function ContactForm() {
           className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded transition-all duration-300 items-center"
           disabled={loading}
         >
-          {loading ? <FaSpinner className="animate-spin " /> : "Send Message"}
+          {loading ? (
+            <FaSpinner className="animate-spin text-lg " />
+          ) : (
+            "Send Message"
+          )}
         </button>
       </form>
     </>
