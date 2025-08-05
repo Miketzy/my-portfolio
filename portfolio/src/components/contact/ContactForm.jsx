@@ -98,7 +98,7 @@ function ContactForm() {
               name="subject"
               className="w-full p-2 rounded bg-gray-700 text-white"
               placeholder="Subject"
-              value={phone}
+              value={subject}
               onChange={(e) => setSubject(e.target.value)}
             />
           </div>
@@ -118,11 +118,11 @@ function ContactForm() {
 
         <button
           type="submit"
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded transition-all duration-300 items-center"
+          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded transition-all duration-300 flex justify-center items-center"
           disabled={loading}
         >
           {loading ? (
-            <FaSpinner className="animate-spin text-lg " />
+            <FaSpinner className="animate-spin text-lg" />
           ) : (
             "Send Message"
           )}
