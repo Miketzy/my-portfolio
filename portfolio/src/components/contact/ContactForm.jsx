@@ -8,6 +8,7 @@ function ContactForm() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false); // idagdag ito sa taas
 
   const handleSubmit = (e) => {
     e.preventDefault();
