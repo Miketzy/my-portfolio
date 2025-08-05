@@ -11,6 +11,7 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true); // start loading
 
     const serviceId = "service_khipywe";
     const templateId = "template_6d48n7a";
@@ -24,6 +25,7 @@ function ContactForm() {
       phone: phone,
       message: message,
       to_name: "Michael John G. Margate",
+      to_email: "michaelmargate2@gmail.com",
     };
 
     emailjs
@@ -39,6 +41,9 @@ function ContactForm() {
       })
       .catch((error) => {
         console.error("Error sending email:", error);
+      })
+      .finally(() => {
+        setLoading(false); // stop loading
       });
   };
 
@@ -113,8 +118,9 @@ function ContactForm() {
         <button
           type="submit"
           className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded transition-all duration-300"
+          disabled={loading}
         >
-          Send Message
+          {loading ? <FaSpinner className="animate-spin" /> : "Send Message"}
         </button>
       </form>
     </>
