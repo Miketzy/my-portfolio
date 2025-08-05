@@ -4,7 +4,7 @@ import { FaSpinner } from "react-icons/fa";
 
 function ContactForm() {
   const [firstname, setFirstname] = useState("");
-  const [lastname, setLastname] = useState(""); // ✅ corrected from 'lasttname'
+  const [lastname, setLastname] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
@@ -17,10 +17,13 @@ function ContactForm() {
     const publicKey = "U2ZQ8bqB1ZlFnLGlv";
 
     const templateParams = {
-      from_name: `${firstname} ${lastname}`, // ✅ uses corrected 'lastname'
+      firstname: firstname,
+      lastname: lastname,
       from_email: email,
-      to_name: "Michael John G. Margate", // ✅ your own name or whoever receives the email
+      phone: phone,
       message: message,
+      to_name: "Michael John G. Margate",
+      to_email: "michaelmargate2@gmail.com",
     };
 
     emailjs
@@ -29,7 +32,7 @@ function ContactForm() {
         console.log("Email sent successfully!", response);
         // Reset the form
         setFirstname("");
-        setLastname(""); // ✅ uses correct setter
+        setLastname("");
         setEmail("");
         setPhone("");
         setMessage("");
@@ -50,6 +53,7 @@ function ContactForm() {
             <label className="block mb-1 text-sm">First Name</label>
             <input
               type="text"
+              name="firstname"
               className="w-full p-2 rounded bg-gray-700 text-white"
               placeholder="Enter your first name"
               value={firstname}
@@ -60,6 +64,7 @@ function ContactForm() {
             <label className="block mb-1 text-sm">Last Name</label>
             <input
               type="text"
+              name="lastname"
               className="w-full p-2 rounded bg-gray-700 text-white"
               placeholder="Enter your last name"
               value={lastname}
@@ -73,6 +78,7 @@ function ContactForm() {
             <label className="block mb-1 text-sm">Email</label>
             <input
               type="email"
+              name="from_email}"
               className="w-full p-2 rounded bg-gray-700 text-white"
               placeholder="Enter your email"
               value={email}
@@ -83,6 +89,7 @@ function ContactForm() {
             <label className="block mb-1 text-sm">Phone</label>
             <input
               type="tel"
+              name="phone"
               className="w-full p-2 rounded bg-gray-700 text-white"
               placeholder="+63 ### ### ####"
               value={phone}
@@ -94,6 +101,7 @@ function ContactForm() {
         <div className="mb-6">
           <label className="block mb-1 text-sm">Your Message</label>
           <textarea
+            name="message"
             className="w-full p-2 rounded bg-gray-700 text-white resize-none"
             rows="5"
             placeholder="Type your message here..."
