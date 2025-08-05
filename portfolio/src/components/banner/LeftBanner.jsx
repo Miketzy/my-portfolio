@@ -7,8 +7,8 @@ function LeftBanner() {
   const [text] = useTypewriter({
     words: [
       "Frontend Developer.",
-      "Data Entry Encoder.",
-      "Frontend Developer.",
+      "Full Stack Developer.",
+      "Data Entry Encoding.",
     ],
     loop: true,
     typeSpeed: 20,
@@ -41,13 +41,12 @@ function LeftBanner() {
         </h2>
 
         <p className="text-base leading-6 tracking-wide text-white">
-          I am a fresh graduate in Information Technology with a strong interest
-          in frontend development. I enjoy building clean and responsive
-          websites using HTML, CSS, JavaScript, React, and Tailwind CSS. I'm a
-          hardworking individual who is always eager to learn and grow. I
-          believe in improving step by step through consistent effort and
-          hands-on practice, and I'm excited to continue developing my skills in
-          this field.
+          Hi! I'm a fresh graduate of Information Technology with a passion for
+          building clean and responsive web applications. I created our entire
+          capstone project using ReactJS, Node.js, and PostgreSQL. I enjoy
+          working on both the frontend and backend and love learning through
+          hands-on projects. I may still be learning, but I'm always eager to
+          grow and improve as a full-stack developer.
         </p>
       </div>
 
