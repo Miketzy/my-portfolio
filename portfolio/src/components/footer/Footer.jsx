@@ -11,9 +11,8 @@ import { logo } from "../../assets";
 
 function Footer() {
   return (
-    <footer className="w-full bg-gray-900 text-white py-10 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-        {/* Logo / Name / Short Description */}
+    <footer className="w-full bg-[#1f2937] text-white pt-20 pb-20 px-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-20">
         <div>
           <img src={logo} alt="Logo" className="w-20 h-auto" />
           <p className="text-lg font-semibold mt-2 text-white">
@@ -28,7 +27,6 @@ function Footer() {
           </p>
         </div>
 
-        {/* Quick Links */}
         <div>
           <h2 className="text-lg font-semibold mb-2">Quick Links</h2>
           <ul className="space-y-1 text-gray-300">
@@ -65,7 +63,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Social Links */}
         <div>
           <h2 className="text-lg font-semibold mb-2">Connect with me</h2>
           <div className="flex gap-4 text-gray-300 mt-2">
@@ -111,7 +108,6 @@ function Footer() {
         </div>
       </div>
 
-      {/* Bottom text */}
       <div className="text-center text-gray-500 text-sm mt-10 border-t border-gray-700 pt-4">
         © {new Date().getFullYear()} Michael John G. Margate. All rights
         reserved.
