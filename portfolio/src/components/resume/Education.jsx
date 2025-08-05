@@ -19,7 +19,7 @@ function Education() {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-5 ">
         <EducationCard
-          year="2025"
+          year="2021-2025"
           title="Bachelor of Science in Information Technology"
           des={
             <>
@@ -28,33 +28,7 @@ function Education() {
               </ul>
             </>
           }
-          images={[projectOne]} // ✅ wrap in array
-        />
-
-        <EducationCard
-          year="2025"
-          title="Bachelor of Science in Information Technology"
-          des={
-            <>
-              <ul className="list-disc list-inside text-sm">
-                <li>Graduated from Davao Oriental State University</li>
-              </ul>
-            </>
-          }
-          images={[projectOne]} // ✅ wrap in array
-        />
-
-        <EducationCard
-          year="2025"
-          title="Bachelor of Science in Information Technology"
-          des={
-            <>
-              <ul className="list-disc list-inside text-sm">
-                <li>Graduated from Davao Oriental State University</li>
-              </ul>
-            </>
-          }
-          images={[projectOne]} // ✅ wrap in array
+          images=""
         />
       </div>
     </div>

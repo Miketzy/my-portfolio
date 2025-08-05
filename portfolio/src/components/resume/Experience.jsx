@@ -38,17 +38,6 @@ function Experience() {
             </>
           }
         />
-        <ExperieceCard
-          title="data Entry Encoder"
-          des={
-            <>
-              <ul className="list-disc list-inside text-sm">
-                <li>Graduated from Davao Oriental State University</li>
-              </ul>
-            </>
-          }
-        />
-        <ExperieceCard />
       </div>
     </div>
   );
