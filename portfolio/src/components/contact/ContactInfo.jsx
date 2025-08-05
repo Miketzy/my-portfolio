@@ -43,7 +43,7 @@ function ContactSection() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center h-[400px] bg-gradient-to-r from-gray-800 to-gray-900 shadow-[10px_10px_20px_rgba(0,0,0,0.5),_-10px_-10px_20px_rgba(255,255,255,0.05)] group rounded-lg text-white">
+      <div className="flex flex-col justify-center items-center h-[100px] bg-gradient-to-r from-gray-800 to-gray-900 shadow-[10px_10px_20px_rgba(0,0,0,0.5),_-10px_-10px_20px_rgba(255,255,255,0.05)] group rounded-lg text-white">
         <h2 className="text-lg font-semibold mb-2">Our Location</h2>
         <div className="w-full h-full bg-gray-700 rounded-md overflow-hidden">
           <iframe
