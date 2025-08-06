@@ -1,6 +1,8 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { FaSpinner } from "react-icons/fa";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function ContactForm() {
   const [firstname, setFirstname] = useState("");
@@ -14,9 +16,9 @@ function ContactForm() {
     e.preventDefault();
     setLoading(true); // start loading
 
-    const serviceId = "service_khipywe";
-    const templateId = "template_6d48n7a";
-    const publicKey = "U2ZQ8bqB1ZlFnLGlv";
+    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
 
     const templateParams = {
       firstname: firstname,
@@ -25,14 +27,22 @@ function ContactForm() {
       reply_to: email,
       subject: subject,
       message: message,
-      to_name: "Michael John G. Margate",
-      to_email: "michaelmargate2@gmail.com",
+      to_name: REACT_APP_TO_NAME,
+      to_email: REACT_APP_TO_EMAIL,
     };
 
     emailjs
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
         console.log("Email sent successfully!", response);
+        toast.success("Message sent successfully!", {
+          style: {
+            background: "#16a34a", // green
+            color: "#fff",
+          },
+          icon: "✅",
+        });
+
         // Reset the form
         setFirstname("");
         setLastname("");
@@ -42,6 +52,13 @@ function ContactForm() {
       })
       .catch((error) => {
         console.error("Error sending email:", error);
+        toast.error("Failed to send message. Please try again.", {
+          style: {
+            background: "#dc2626", // red
+            color: "#fff",
+          },
+          icon: "❌",
+        });
       })
       .finally(() => {
         setLoading(false); // stop loading
@@ -128,6 +145,7 @@ function ContactForm() {
           )}
         </button>
       </form>
+      <ToastContainer position="top-center" autoClose={3000} theme="dark" />
     </>
   );
 }
