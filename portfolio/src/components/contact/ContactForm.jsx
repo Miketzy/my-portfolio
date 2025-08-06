@@ -27,8 +27,8 @@ function ContactForm() {
       reply_to: email,
       subject: subject,
       message: message,
-      to_name: REACT_APP_TO_NAME,
-      to_email: REACT_APP_TO_EMAIL,
+      to_name: "Michael John G. Margate",
+      to_email: "michaelmargate2@gmail.com",
     };
 
     emailjs
