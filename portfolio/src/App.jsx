@@ -25,7 +25,7 @@ function App() {
     return (
       <div className="loadingContainer">
         <div className="spinner relative flex items-center justify-center">
-          <img src="/logo.png" alt="Logo" className="absolute w-10 h-10" />
+          <img src={logo} alt="Logo" className="absolute w-10 h-10" />
         </div>
         <p>Loading website...</p>
       </div>
