@@ -24,10 +24,9 @@ function App() {
   if (loading) {
     return (
       <div className="loadingContainer">
-        <div className="loadingIcon mb-4">
-          <img src={logo} alt="Logo" className="w-16 h-16" />
+        <div className="spinner relative flex items-center justify-center">
+          <img src="/logo.png" alt="Logo" className="absolute w-10 h-10" />
         </div>
-        <div className="spinner"></div>
         <p>Loading website...</p>
       </div>
     );
