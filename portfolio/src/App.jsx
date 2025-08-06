@@ -1,3 +1,4 @@
+import { logo } from "./assets";
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
 import Features from "./components/features/Features";
@@ -23,6 +24,9 @@ function App() {
   if (loading) {
     return (
       <div className="loadingContainer">
+        <div className="loadingIcon mb-4">
+          <img src={logo} alt="Logo" className="w-16 h-16" />
+        </div>
         <div className="spinner"></div>
         <p>Loading website...</p>
       </div>
