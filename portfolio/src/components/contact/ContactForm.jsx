@@ -61,6 +61,9 @@ function ContactForm() {
         });
       })
       .finally(() => {
+        toast.error(
+          "Missing EmailJS configuration. Please check environment variables."
+        );
         setLoading(false); // stop loading
       });
   };
