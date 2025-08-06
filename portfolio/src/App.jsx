@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import Testimonial from "./components/testimonial/Testimonial";
+import React, { useState, useEffect } from "react";
 
 function App() {
   const [loading, setLoading] = useState(true);
