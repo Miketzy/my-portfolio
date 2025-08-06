@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import { FaSpinner } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { emailConfig } from "../Email-Config/EmailConfig";
 
 function ContactForm() {
   const [firstname, setFirstname] = useState("");
@@ -16,9 +17,9 @@ function ContactForm() {
     e.preventDefault();
     setLoading(true); // start loading
 
-    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-    const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+    const serviceId = emailConfig.serviceId;
+    const templateId = emailConfig.templateId;
+    const publicKey = emailConfig.publicKey;
 
     const templateParams = {
       firstname: firstname,
@@ -27,8 +28,8 @@ function ContactForm() {
       reply_to: email,
       subject: subject,
       message: message,
-      to_name: "Michael John G. Margate",
-      to_email: "michaelmargate2@gmail.com",
+      to_name: emailConfig.toName,
+      to_email: emailConfig.toEmail,
     };
 
     emailjs
