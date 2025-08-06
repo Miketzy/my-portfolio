@@ -16,6 +16,26 @@
     .activeLi {
       @apply bg-[#85DFE7] text-gray-900 font-bold;
     }
+
+     .spinner {
+    @apply border-8 border-gray-200 border-t-blue-400 rounded-full w-16 h-16 mb-5;
+    animation: spin 1s linear infinite;
+  }
+
+  .loadingContainer {
+    @apply flex flex-col justify-center items-center h-screen bg-black text-white;
+  }
+    
+}
+
+/* Add your keyframes OUTSIDE of @layer */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .active{

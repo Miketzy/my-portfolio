@@ -8,6 +8,25 @@ import Resume from "./components/resume/Resume";
 import Testimonial from "./components/testimonial/Testimonial";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // simulate loading delay
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000); // 2 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="loadingContainer">
+        <div className="spinner"></div>
+        <p>Loading website...</p>
+      </div>
+    );
+  }
   return (
     <>
       <div className="w-full h-auto bg-gray-900 text-white overflow-x-hidden">
