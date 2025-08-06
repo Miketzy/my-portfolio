@@ -1,4 +1,3 @@
-import { logo } from "./assets";
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
 import Features from "./components/features/Features";
@@ -24,14 +23,7 @@ function App() {
   if (loading) {
     return (
       <div className="loadingContainer">
-        <div className="spinner relative flex items-center justify-center">
-          <img
-            src={logo}
-            alt="Logo"
-            className="absolute w-10 h-10"
-            style={{ animation: "none" }}
-          />
-        </div>
+        <div className="spinner"></div>
         <p>Loading website...</p>
       </div>
     );
